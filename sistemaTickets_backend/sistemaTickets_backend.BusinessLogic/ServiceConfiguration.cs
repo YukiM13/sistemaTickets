@@ -21,14 +21,16 @@ namespace sistemaTickets_backend.BusinessLogic
         {
             // Repositorios
             services.AddScoped<usuariosRepository>();
-    
+            services.AddScoped<categoriasRepository>();
+
         }
 
         public static void BusinessLogic(this IServiceCollection services)
         {
             // Servicios
             services.AddScoped<usuarioServices>();
-       
+            services.AddScoped<categoriaServices>();
+
         }
     }
 }

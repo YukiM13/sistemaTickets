@@ -31,9 +31,34 @@ namespace sistemaTickets_backend.DataAccess.Repositorys
             throw new NotImplementedException();
         }
 
-        public Task<RequestStatus> Insert(usuarios item)
+        public async Task<RequestStatus> Insert(usuarios item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                //Crear el usuario en Firebase Auth
+                var userRecordArgs = new UserRecordArgs()
+                {
+                    Email = item.Email,
+                    Password = item.Password
+                };
+
+                UserRecord userRecord = await FirebaseAuth.DefaultInstance.CreateUserAsync(userRecordArgs);
+
+                //Guardar en Firestore con el UID como ID del documento
+                item.Id = userRecord.Uid;
+                item.usua_fechaCreacion = DateTime.UtcNow;
+                item.usua_fechaModificacion = DateTime.UtcNow;
+                item.usua_modificacion = "";
+
+
+                await _usuariosCollection.Document(userRecord.Uid).SetAsync(item);
+
+                return new RequestStatus { CodeStatus = 1, MessageStatus = "Usuario creado correctamente" };
+            }
+            catch (Exception ex)
+            {
+                return new RequestStatus { CodeStatus = 0, MessageStatus = $"Error al insertar usuario: {ex.Message}" };
+            }
         }
 
         public async Task<IEnumerable<usuarios>> List()
@@ -74,6 +99,33 @@ namespace sistemaTickets_backend.DataAccess.Repositorys
                         usuario.role_nombre = null; // Por si no existe el rol
                     }
                 }
+                //Traer nombres de usuarios que crearon y modificaron
+                if (!string.IsNullOrEmpty(usuario.usua_creacion))
+                {
+                    var creadorDoc = await _usuariosCollection.Document(usuario.usua_creacion).GetSnapshotAsync();
+                    usuario.usuaC_usuario = creadorDoc.Exists
+                        ? creadorDoc.GetValue<string>("usua_usuario")
+                        : null;
+                }
+                else
+                {
+                    usuario.usuaC_usuario = null;
+                }
+
+           
+                if (!string.IsNullOrEmpty(usuario.usua_modificacion))
+                {
+                    var modificadorDoc = await _usuariosCollection.Document(usuario.usua_modificacion).GetSnapshotAsync();
+                    usuario.usuaM_usuario = modificadorDoc.Exists
+                        ? modificadorDoc.GetValue<string>("usua_usuario")
+                        : null;
+                }
+                else
+                {
+                    usuario.usuaM_usuario = null;
+                }
+
+
 
                 usuariosList.Add(usuario);
             }
@@ -81,9 +133,36 @@ namespace sistemaTickets_backend.DataAccess.Repositorys
             return usuariosList;
         }
 
-        public Task<RequestStatus> Update(usuarios item)
+        public async Task<RequestStatus> Update(usuarios item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var userDoc = _usuariosCollection.Document(item.Id);
+
+                var snapshot = await userDoc.GetSnapshotAsync();
+                if (!snapshot.Exists)
+                    return new RequestStatus { CodeStatus = 0, MessageStatus = "Usuario no encontrado" };
+
+                // Forzar que las fechas sean UTC
+                item.usua_fechaModificacion = DateTime.UtcNow;
+
+                var updateData = new Dictionary<string, object>
+                {
+                    { "usua_usuario", item.usua_usuario },
+                    { "role_id", item.role_id },
+                    { "usua_EsAdmin", item.usua_EsAdmin },
+                    { "usua_modificacion", item.usua_modificacion ?? "" },
+                    { "usua_fechaModificacion", Timestamp.FromDateTime(item.usua_fechaModificacion.Value) }
+                };
+
+                await userDoc.UpdateAsync(updateData);
+
+                return new RequestStatus { CodeStatus = 1, MessageStatus = "Usuario actualizado correctamente" };
+            }
+            catch (Exception ex)
+            {
+                return new RequestStatus { CodeStatus = 0, MessageStatus = $"Error al actualizar usuario: {ex.Message}" };
+            }
         }
     }
 }

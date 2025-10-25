@@ -1,5 +1,6 @@
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
+using sistemaTickets_backend.API1.Extensions;
 using sistemaTickets_backend.BusinessLogic;
 using sistemaTickets_backend.DataAccess;
 
@@ -17,7 +18,10 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddAutoMapper(config =>
+{
+    config.AddProfile(typeof(MappingProfileExtensions));
+});
 
 
 var app = builder.Build();
