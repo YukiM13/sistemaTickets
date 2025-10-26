@@ -4,7 +4,6 @@ namespace sistemaTickets_backend.API1.ViewModels
 {
     public class usuariosViewModel_Insert
     {
-        public string Id { get; set; }
         public string usua_usuario { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }

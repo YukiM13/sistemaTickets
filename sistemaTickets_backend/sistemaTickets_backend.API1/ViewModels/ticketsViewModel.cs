@@ -2,7 +2,6 @@
 {
     public class ticketsViewModel_insert
     {
-        public string Id { get; set; }
         public string tick_titulo { get; set; }
         public string tick_descripcion { get; set; }
         public string cate_id { get; set; }

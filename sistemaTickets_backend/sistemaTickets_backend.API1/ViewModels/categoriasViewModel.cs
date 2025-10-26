@@ -2,7 +2,6 @@
 {
     public class categoriasViewModel_Insert
     {
-        public string Id { get; set; }
         public string cate_nombre { get; set; }
         public string usua_creacion { get; set; }
         public DateTime cate_fechaCreacion { get; set; }
