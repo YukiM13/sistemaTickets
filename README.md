@@ -78,7 +78,7 @@ npm install
 dotnet run --project sistemaTickets_backend.API
 
 # Frontend
-npm run dev
+npm run dev o ng serve
 ```
 
 6. Cambiar el enverioment en el front por el puerto del backend.
