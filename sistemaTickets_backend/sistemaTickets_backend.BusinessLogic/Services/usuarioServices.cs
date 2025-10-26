@@ -83,5 +83,18 @@ namespace sistemaTickets_backend.BusinessLogic.Services
                 return result.Error($"Error al insertar usuario: {ex.Message}");
             }
         }
+
+        public async Task<usuarios> InicioSesion(usuarios usuario)
+        {
+            try
+            {
+                return await _usuarioRepository.Login(usuario);
+            }
+            catch (Exception ex)
+            {
+                //Retornar lista vacia si hay algun problema
+                return null;
+            }
+        }
     }
 }

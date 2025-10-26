@@ -64,5 +64,13 @@ namespace sistemaTickets_backend.API1.Controllers
 
         }
 
+        [HttpPost("IniciarSesion")]
+        public async Task<IActionResult> IniciarSesion([FromBody] usuariosViewModel_Login usuario)
+        {
+            var mapped = _mapper.Map<usuarios>(usuario);
+            var result = await _usuarioServices.InicioSesion(mapped);
+           return Ok(result);
+        }
+
     }
 }

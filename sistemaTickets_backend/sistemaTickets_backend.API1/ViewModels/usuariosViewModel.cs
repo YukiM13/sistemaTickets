@@ -22,4 +22,10 @@ namespace sistemaTickets_backend.API1.ViewModels
         public string? usua_modificacion { get; set; }
         public DateTime? usua_fechaModificacion { get; set; }
     }
+
+    public class usuariosViewModel_Login
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
 }

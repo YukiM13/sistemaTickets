@@ -43,7 +43,7 @@ namespace sistemaTickets_backend.API1.Controllers
         }
 
         [HttpPut("Actualizar")]
-        public async Task<IActionResult> ActualizarCategoria([FromBody] ticketsViewModel_update ticket)
+        public async Task<IActionResult> ActualizarTicket([FromBody] ticketsViewModel_update ticket)
         {
             var mapped = _mapper.Map<tickets>(ticket);
             var result = await _ticketServices.ActualizarTicket(mapped);
@@ -57,9 +57,24 @@ namespace sistemaTickets_backend.API1.Controllers
             }
         }
 
+        [HttpPut("Tomar")]
+        public async Task<IActionResult> TomarTicket([FromBody] ticketsViewModel_updateEstado ticket)
+        {
+            var mapped = _mapper.Map<tickets>(ticket);
+            var result = await _ticketServices.Asignar_CambioEstado(mapped);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result);
+            }
+        }
+
         [HttpDelete("Eliminar")]
 
-        public async Task<IActionResult> EliminarCategoria([FromBody] ticketsViewModel_delete ticket)
+        public async Task<IActionResult> EliminarTicket([FromBody] ticketsViewModel_delete ticket)
         {
             var mapped = _mapper.Map<tickets>(ticket);
             var result = await _ticketServices.EliminarTicket(mapped);
@@ -72,6 +87,9 @@ namespace sistemaTickets_backend.API1.Controllers
                 return BadRequest(result);
             }
         }
+
+
+        
 
     }
 }

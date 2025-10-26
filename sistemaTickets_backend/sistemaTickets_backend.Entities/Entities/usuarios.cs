@@ -41,6 +41,8 @@ namespace sistemaTickets_backend.Entities.Entities
 
         public string usuaM_usuario { get; set; }
 
+        public string Token { get; set; }
+
         // Constructor vacío obligatorio para Firestore
         public usuarios() { }
     }

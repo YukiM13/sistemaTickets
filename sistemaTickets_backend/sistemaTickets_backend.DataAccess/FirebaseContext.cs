@@ -12,9 +12,12 @@ namespace sistemaTickets_backend.DataAccess
         private readonly FirestoreDb _firestoreDb;
         private static bool _initialized = false;
         private static readonly object _lock = new object();
-
+        public string ApiKey { get; }
+        public string AuthDomain { get; }
         public FirebaseContext(IConfiguration configuration)
         {
+            ApiKey = configuration["Firebase:firebase-apikey"];
+            AuthDomain = configuration["Firebase:AuthDomain"];
             // Inicializar FirebaseApp solo una vez (Singleton)
             if (!_initialized)
             {
@@ -43,7 +46,11 @@ namespace sistemaTickets_backend.DataAccess
 
             // Crear instancia de FirestoreDb
             var projectId = configuration["Firebase:ProjectId"];
+           
             _firestoreDb = FirestoreDb.Create(projectId);
+
+
+
         }
 
         public FirestoreDb Firestore => _firestoreDb;

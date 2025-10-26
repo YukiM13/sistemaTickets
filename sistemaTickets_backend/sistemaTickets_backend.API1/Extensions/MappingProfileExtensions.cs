@@ -10,6 +10,7 @@ namespace sistemaTickets_backend.API1.Extensions
         {
             CreateMap<usuarios, usuariosViewModel_Insert>().ReverseMap();
             CreateMap<usuarios, usuariosViewModel_Update>().ReverseMap();
+            CreateMap<usuarios, usuariosViewModel_Login>().ReverseMap();
             CreateMap<categorias, categoriasViewModel_Insert>().ReverseMap();
             CreateMap<categorias, categoriasViewModel_Update>().ReverseMap();
             CreateMap<categorias, categoriasViewModel_Delete>().ReverseMap();
