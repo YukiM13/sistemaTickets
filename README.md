@@ -44,9 +44,6 @@ sistemaTickets_backend/
 ## 🚀 Instalación
 
 1. Clonar el repositorio:
-```bash
-git clone <url-del-repositorio>
-```
 
 2. Descargar el archivo JSON con credenciales de Firebase.
 
@@ -83,6 +80,8 @@ dotnet run --project sistemaTickets_backend.API
 # Frontend
 npm run dev
 ```
+
+6. Cambiar el enverioment en el front por el puerto del backend.
 
 ---
 
