@@ -4,34 +4,34 @@ using sistemaTickets_backend.API1.Helpers;
 using sistemaTickets_backend.API1.ViewModels;
 using sistemaTickets_backend.BusinessLogic.Services;
 using sistemaTickets_backend.Entities.Entities;
-using System.Security.Principal;
 
 namespace sistemaTickets_backend.API1.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     [ApiKey]
-    public class categoriaController : Controller
+    public class ticketController : Controller
     {
-        private readonly categoriaServices _categoriaServices;
+        private readonly ticketServices _ticketServices;
         public readonly IMapper _mapper;
-        public categoriaController(categoriaServices categoriaServices, IMapper mapper)
+        public ticketController(ticketServices ticketServices, IMapper mapper)
         {
-            _categoriaServices = categoriaServices;
+            _ticketServices = ticketServices;
             _mapper = mapper;
         }
+
         [HttpGet("Listar")]
-        public async Task<IActionResult> ListarCategorias()
+        public async Task<IActionResult> ListarTickets()
         {
-            var list = await _categoriaServices.ListarCategorias();
+            var list = await _ticketServices.ListarTickets();
             return Ok(list);
         }
 
         [HttpPost("Insertar")]
-        public async Task<IActionResult> InsertarCategoria([FromBody] categoriasViewModel_Insert categoria)
+        public async Task<IActionResult> InsertarTickets([FromBody] ticketsViewModel_insert ticket)
         {
-            var mapped = _mapper.Map<categorias>(categoria);
-            var result = await _categoriaServices.InsertarCategoria(mapped);
+            var mapped = _mapper.Map<tickets>(ticket);
+            var result = await _ticketServices.InsertarTicket(mapped);
             if (result.Success)
             {
                 return Ok(result);
@@ -43,10 +43,10 @@ namespace sistemaTickets_backend.API1.Controllers
         }
 
         [HttpPut("Actualizar")]
-        public async Task<IActionResult> ActualizarCategoria([FromBody] categoriasViewModel_Update categoria)
+        public async Task<IActionResult> ActualizarCategoria([FromBody] ticketsViewModel_update ticket)
         {
-            var mapped = _mapper.Map<categorias>(categoria);
-            var result = await _categoriaServices.ActualizarCategoria(mapped);
+            var mapped = _mapper.Map<tickets>(ticket);
+            var result = await _ticketServices.ActualizarTicket(mapped);
             if (result.Success)
             {
                 return Ok(result);
@@ -59,10 +59,10 @@ namespace sistemaTickets_backend.API1.Controllers
 
         [HttpDelete("Eliminar")]
 
-        public async Task<IActionResult> EliminarCategoria([FromBody] categoriasViewModel_Delete categoria)
+        public async Task<IActionResult> EliminarCategoria([FromBody] ticketsViewModel_delete ticket)
         {
-            var mapped = _mapper.Map<categorias>(categoria);
-            var result = await _categoriaServices.EliminarCategoria(mapped);
+            var mapped = _mapper.Map<tickets>(ticket);
+            var result = await _ticketServices.EliminarTicket(mapped);
             if (result.Success)
             {
                 return Ok(result);
@@ -72,5 +72,6 @@ namespace sistemaTickets_backend.API1.Controllers
                 return BadRequest(result);
             }
         }
+
     }
 }

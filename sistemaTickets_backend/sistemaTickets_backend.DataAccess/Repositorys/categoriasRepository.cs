@@ -67,8 +67,8 @@ namespace sistemaTickets_backend.DataAccess.Repositorys
             {
                 // Configurar fechas
                 item.cate_fechaCreacion = DateTime.UtcNow;
-                item.cate_fechaModificacion = DateTime.UtcNow;
-                item.usua_modificacion = "";
+                item.cate_fechaModificacion = null;
+                item.usua_modificacion = null;
 
                 // Guardar en Firestore y generar ID automáticamente
                 DocumentReference docRef = await _categoriaCollection.AddAsync(item);

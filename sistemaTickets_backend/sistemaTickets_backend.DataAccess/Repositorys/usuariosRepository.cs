@@ -47,8 +47,8 @@ namespace sistemaTickets_backend.DataAccess.Repositorys
                 //Guardar en Firestore con el UID como ID del documento
                 item.Id = userRecord.Uid;
                 item.usua_fechaCreacion = DateTime.UtcNow;
-                item.usua_fechaModificacion = DateTime.UtcNow;
-                item.usua_modificacion = "";
+                item.usua_fechaModificacion = null;
+                item.usua_modificacion = null;
 
 
                 await _usuariosCollection.Document(userRecord.Uid).SetAsync(item);

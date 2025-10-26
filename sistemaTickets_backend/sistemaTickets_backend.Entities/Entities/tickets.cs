@@ -11,7 +11,7 @@ namespace sistemaTickets_backend.Entities.Entities
     public class tickets
     {
         [FirestoreDocumentId]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [FirestoreProperty]
         public string tick_titulo { get; set; }

@@ -22,6 +22,7 @@ namespace sistemaTickets_backend.BusinessLogic
             // Repositorios
             services.AddScoped<usuariosRepository>();
             services.AddScoped<categoriasRepository>();
+            services.AddScoped<ticketsRepository>();
 
         }
 
@@ -30,6 +31,7 @@ namespace sistemaTickets_backend.BusinessLogic
             // Servicios
             services.AddScoped<usuarioServices>();
             services.AddScoped<categoriaServices>();
+            services.AddScoped<ticketServices>();
 
         }
     }

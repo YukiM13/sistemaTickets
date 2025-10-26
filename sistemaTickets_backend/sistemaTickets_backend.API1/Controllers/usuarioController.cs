@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Google.Api;
 using Microsoft.AspNetCore.Mvc;
+using sistemaTickets_backend.API1.Helpers;
 using sistemaTickets_backend.API1.ViewModels;
 using sistemaTickets_backend.BusinessLogic.Services;
 using sistemaTickets_backend.Entities.Entities;
@@ -9,6 +10,7 @@ namespace sistemaTickets_backend.API1.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [ApiKey]
     public class usuarioController : Controller
     {
         private readonly usuarioServices _usuarioServices;

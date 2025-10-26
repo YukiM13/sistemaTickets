@@ -1,6 +1,8 @@
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
+using Microsoft.OpenApi.Models;
 using sistemaTickets_backend.API1.Extensions;
+using sistemaTickets_backend.API1.Helpers;
 using sistemaTickets_backend.BusinessLogic;
 using sistemaTickets_backend.DataAccess;
 
@@ -16,12 +18,46 @@ builder.Services.DataAccess();
 builder.Services.BusinessLogic();
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+
+    // Configuraci?n de ApiKey
+    c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
+    {
+        Description = "Ingrese la ApiKey en el encabezado 'X-Api-Key'",
+        Type = SecuritySchemeType.ApiKey,
+        Name = "X-Api-Key",
+        In = ParameterLocation.Header,
+        Scheme = "ApiKeyScheme"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "ApiKey"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
+
+
+builder.Services.AddSingleton<ApiKeyAuthorizationFilter>();
+builder.Services.AddSingleton<IApiKeyValidator, ApiKeyValidator>();
 
 builder.Services.AddAutoMapper(config =>
 {
     config.AddProfile(typeof(MappingProfileExtensions));
 });
+
+
 
 
 var app = builder.Build();
