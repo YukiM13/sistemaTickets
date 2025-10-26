@@ -1,0 +1,27 @@
+<div class="layout-topbar">
+    <div class="topbar-start">
+        <button #menubutton type="button" class="topbar-menubutton p-link p-trigger" (click)="onMenuButtonClick()">
+            <i class="pi pi-bars"></i>
+        </button>
+
+        <app-breadcrumb class="topbar-breadcrumb"></app-breadcrumb>
+    </div>
+    <div class="layout-topbar-menu-section">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="topbar-end">
+        <ul class="topbar-menu  ">
+            <li class="hidden lg:block">
+               
+            </li>
+            <!-- Logout button -->
+            <li>
+                <button type="button" class="p-link topbar-item" (click)="logout()" title="Cerrar sesión">
+                    <i class="pi pi-sign-out"></i>
+                    <span class="ml-2">Salir</span>
+                </button>
+            </li>
+
+        </ul>
+    </div>
+</div>

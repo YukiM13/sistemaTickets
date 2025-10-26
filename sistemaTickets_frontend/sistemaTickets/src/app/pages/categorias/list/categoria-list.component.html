@@ -1,0 +1,80 @@
+<p-toast></p-toast>
+<div class="card">
+  <div class="flex align-items-center justify-content-between mb-3">
+    <h3>Categorías</h3>
+  </div>
+
+  <p-table class="categoria-table" #dt [value]="categorias" [paginator]="true" [rows]="10" paginatorPosition="bottom" [globalFilterFields]="['cate_nombre']" *ngIf="!isLoading">
+    <ng-template pTemplate="caption">
+      <div class="table-header flex align-items-center w-full">
+        <div class="left-group">
+          <button pButton type="button" class="p-button p-button-success" (click)="openNew()">
+            <i class="pi pi-plus"></i>
+            <span class="p-button-label">Nuevo</span>
+          </button>
+        </div>
+        <div class="right-group">
+          <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input pInputText type="text" (input)="dt?.filterGlobal($any($event.target).value, 'contains')" placeholder="Buscar..." />
+          </span>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th style="width:4rem">Acciones</th>
+        <th>Nombre</th>
+        <th>Creación</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-cat>
+      <tr>
+        <td>
+          <app-action-menu
+            [items]="getActionMenuItems(cat)"
+            [data]="cat"
+            (actionClick)="onActionMenuClick($event)"
+            buttonClass="p-button-text p-button-rounded p-button-sm"
+            buttonIcon="pi pi-cog">
+          </app-action-menu>
+        </td>
+        <td>{{ cat.cate_nombre || cat.nombre }}</td>
+        <td>{{ cat.cate_fechaCreacion | date:'short' }}</td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="paginatorleft">
+      <!-- left paginator area (empty to keep paginator on right) -->
+    </ng-template>
+    <ng-template pTemplate="paginatorright">
+      <!-- right paginator area (default controls) -->
+    </ng-template>
+  </p-table>
+
+  <p-dialog header="Confirmar eliminación" [(visible)]="showDeleteDialog" [modal]="true" [closable]="false" [style]="{width: '400px'}">
+    <div class="p-fluid">
+      <p>¿Deseas eliminar la categoría <strong>{{ deleteCandidate?.cate_nombre || deleteCandidate?.nombre }}</strong>?</p>
+    </div>
+    <ng-template pTemplate="footer">
+      <div class="flex justify-content-end gap-2">
+        <button pButton type="button" label="Cancelar" class="p-button-text" (click)="cancelDelete()"></button>
+        <button pButton type="button" label="Eliminar" class="p-button-danger" (click)="proceedDelete()"></button>
+      </div>
+    </ng-template>
+  </p-dialog>
+
+  <p-progressSpinner *ngIf="isLoading"></p-progressSpinner>
+
+  <p-dialog header="Categoría" [(visible)]="showDialog" [modal]="true" [closable]="false">
+    <div class="p-fluid">
+      <div class="p-field">
+        <label>Nombre</label>
+        <input pInputText type="text" [(ngModel)]="model.cate_nombre" />
+      </div>
+    </div>
+    <ng-template pTemplate="footer">
+      <button pButton type="button" class="p-button-text" (click)="showDialog=false" [disabled]="saving">Cancelar</button>
+      <button pButton type="button" label="Guardar" icon="pi pi-save" class="p-button-primary" (click)="save()" [disabled]="saving"></button>
+    </ng-template>
+  </p-dialog>
+</div>

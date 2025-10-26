@@ -1,0 +1,89 @@
+
+        <div class="card">
+            <!-- include the create dialog component; the list will refresh when it emits 'created' -->
+            <app-usuario-create #userCreate (created)="listarUsuarios()"></app-usuario-create>
+            
+                    <!-- Spinner de Carga -->
+                    <div *ngIf="isLoading" class="loading-container text-center p-6">
+                <p-progressSpinner 
+                    [style]="{'width': '60px', 'height': '60px'}" 
+                    styleClass="custom-spinner"
+                    strokeWidth="3"
+                    fill="transparent"
+                    animationDuration="0.8s">
+                </p-progressSpinner>
+                <p class="mt-4 text-600 font-medium">Cargando usuarios...</p>
+                <small class="text-500">Por favor espere un momento</small>
+            </div>
+
+            <!-- Contenido Principal -->
+            <div *ngIf="!isLoading">
+                
+                <!-- Tabla con buscador y botón Nuevo (botón a la izquierda) -->
+                <div class="mb-4">
+                    <!-- el header del p-table incluye buscador y botón nuevo; dejamos aquí el contenedor vacío para orden visual -->
+                </div>
+
+           
+
+                <!-- Tabla con buscador global, paginador y acciones a la izquierda -->
+                <div *ngIf="usuarios.length > 0">
+                    <p-table class="usuario-table" #dt [value]="usuarios" [paginator]="true" [rows]="10" [globalFilterFields]="['usua_usuario','email','role_nombre']" [responsiveLayout]="'scroll'">
+                        <ng-template pTemplate="caption">
+                            <div class="table-header flex align-items-center w-full">
+                                <div class="left-group">
+                                    <button pButton type="button" class="p-button p-button-success" (click)="openCreate()">
+                                        <i class="pi pi-plus"></i>
+                                        <span class="p-button-label">Nuevo</span>
+                                    </button>
+                                </div>
+                                <div class="right-group">
+                                    <span class="p-input-icon-left">
+                                        <i class="pi pi-search"></i>
+                                        <input pInputText type="text" (input)="dt?.filterGlobal($any($event.target).value, 'contains')" placeholder="Buscar..." />
+                                    </span>
+                                </div>
+                            </div>
+                        </ng-template>
+
+                        <ng-template pTemplate="header">
+                            <tr>
+                                <th style="width:4rem">Acciones</th>
+                                <th>Usuario</th>
+                                <th>Email</th>
+                                <th>Rol</th>
+                            </tr>
+                        </ng-template>
+
+                        <ng-template pTemplate="body" let-usuario let-i="rowIndex">
+                            <tr>
+                                <td>
+                                    <app-action-menu
+                                        [items]="getActionMenuItems(usuario)"
+                                        [data]="usuario"
+                                        (actionClick)="onActionMenuClick($event)"
+                                        buttonClass="p-button-text p-button-rounded p-button-sm"
+                                        buttonIcon="pi pi-cog">
+                                    </app-action-menu>
+                                </td>
+                                <td>
+                                    <div class="flex align-items-center gap-2">
+                                        <div class="initials-avatar shadow-2">
+                                            {{ getInitial(usuario) }}
+                                        </div>
+                                        <div>
+                                            <div class="text-900">{{ getNombreCompleto(usuario) }}</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>{{ usuario.email }}</td>
+                                <td>{{ usuario.role_nombre }}</td>
+                            </tr>
+                        </ng-template>
+                    </p-table>
+                </div>
+
+                 
+            </div> <!-- Cierre del contenido principal -->
+        </div>
+

@@ -1,0 +1,1410 @@
+[33m06c98b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32matlantis-nextgen[m[33m)[m feat: plantilla y prueba de usuario
+[33m4ff7a7c[m Merge branch 'atlantis-nextgen' of https://github.com/primefaces/atlantis-ng into atlantis-nextgen
+[33m9953cee[m Update table style
+[33m766e073[m Merge branch 'atlantis-nextgen' of https://github.com/primefaces/atlantis-ng into atlantis-nextgen
+[33mff94975[m Fix table background
+[33mae2f7e1[m Merge branch 'atlantis-nextgen' of https://github.com/primefaces/atlantis-ng into atlantis-nextgen
+[33mf449cf3[m changelog update and typo fix
+[33mcf500b8[m sync styles
+[33m2f9e4f3[m refactor config
+[33m9bcfe1a[m full calendar update
+[33m7060663[m overlap fix
+[33mc9cb5b1[m config panel fix
+[33madb1f9b[m Refactor appConfig component, update layoutService and implement Angular signals
+[33m47ea33b[m update to v17 & sync primeng-sass-theme
+[33mbd4c8a9[m Add missing variables & fix table header and column transparency issue
+[33m7605a37[m update landing asset paths
+[33m503c960[m[33m ([m[1;33mtag: [m[1;33m16.0.0[m[33m)[m Update docs
+[33m0f910ec[m Update to v16
+[33m7091d7b[m sync designer
+[33m397075a[m config update
+[33m97d6a98[m changelog & doc update
+[33m33518c5[m layout adjustments
+[33maa58266[m fix scroll listener on menus
+[33m5419ddc[m fix scroll issues and add favicon
+[33m8355421[m layout adjustments
+[33mee62f14[m right panel button adjustments
+[33m5161616[m adjustments on topbar and breadcrumb
+[33mda7303b[m fix mask issue on mobile view
+[33m1ccd616[m adjustments on dashboard charts
+[33maece9db[m update files
+[33mf5d698e[m fix config theme color issue
+[33m82b8d64[m add new images for new auth pages
+[33m3f91630[m adjustments and fixes on layout
+[33m1adcfd4[m fix mobile menu
+[33mc4c68d3[m build atlantis next gen
+[33me6dd338[m[33m ([m[1;33mtag: [m[1;33m15.0.0[m[33m, [m[1;32mmaster[m[33m)[m Update fullcalendar version
+[33m2395301[m Fix typo
+[33mfff6d16[m Fix crud dropdown
+[33mede10a9[m Update PrimeNG version
+[33md44124e[m Update to v15
+[33m9782972[m Refactor
+[33mf4dc468[m Refactor
+[33mcdca896[m Add Figma preview link
+[33m9ba4940[m[33m ([m[1;33mtag: [m[1;33m14.0.1[m[33m)[m Update changelog
+[33m2c5be68[m Set new version
+[33m0344367[m Fix menu bug
+[33m710666a[m Update Changelog.md
+[33m3ab02d9[m Fix calendar cell focus background
+[33macfb4b0[m Add messageService
+[33mdf2c708[m Update documentation
+[33m3de01b9[m Fix calendar width
+[33m213a74a[m Add primaryColor
+[33m81a0672[m[33m ([m[1;33mtag: [m[1;33m14.0.0[m[33m)[m Remove css.map files
+[33mc1145ea[m Update to Angular14 & PrimeNG 14
+[33meb61378[m[33m ([m[1;33mtag: [m[1;33m13.1.0[m[33m)[m update package.json
+[33m02ffdda[m update package.json
+[33m841f713[m refactor
+[33mb600b0e[m update changelog
+[33m3d05566[m bugfix in menuitem active route class, update list & crud
+[33m9a2fa17[m add search
+[33m8e1bcc6[m fix menu breadcrumb
+[33mca75fee[m update colors
+[33m881c38e[m Merge pull request #7 from primefaces/primeflex-v3
+[33ma00326e[m update demos
+[33m6c0c3c3[m Update icons.component.ts
+[33m07543f5[m new dev iteration
+[33m4063d1c[m[33m ([m[1;33mtag: [m[1;33m13.0.0[m[33m)[m set version
+[33m72ca5b1[m set version
+[33md0f2615[m v13
+[33m09056bc[m new dev iteration
+[33mb4ff380[m[33m ([m[1;33mtag: [m[1;33m12.2.0[m[33m)[m set version
+[33m32b9ef3[m new demo
+[33m38a1028[m flex removed from layout and demo pages fixed
+[33m10d0ccb[m login img fix
+[33m1f030fe[m mobil menu align fix
+[33m857222d[m font color fixed
+[33m0861fe8[m badge fix
+[33mfa1d397[m removed flex 2 classes
+[33m4ac612e[m links fixed
+[33mc212e33[m new variables added
+[33m13725ac[m new dev iteration
+[33mc80cf76[m[33m ([m[1;33mtag: [m[1;33m12.0.0[m[33m)[m set version
+[33m1d1d93a[m chart fix
+[33m1027614[m Flex 3
+[33m1037097[m margins replaced
+[33mbc45bee[m paddings replaced
+[33m73abdc0[m justify align replaced
+[33m32426a3[m display replaced
+[33mb02ce4b[m charts updated
+[33md8df560[m url fixed
+[33m93fac4c[m visible prop added
+[33m4d1f877[m new versions and fullcalendar update
+[33m85c10f0[m new dev iteration
+[33mbb6d454[m set version
+[33m017ff25[m inline chevron icon fixed
+[33mb49a3b9[m Merge branch 'master' of https://github.com/primefaces/atlantis-ng
+[33m0b0367d[m sidebar scroll fixed
+[33mbe41dbb[m Fixed menu-pin issue
+[33m2dd2060[m overflow fix
+[33m52ea6cf[m removed unused code
+[33mda7afff[m landing responsive fix
+[33m9f11ac7[m ng version update
+[33m23ca690[m loader updated
+[33mbb5002b[m landing responsive fixes
+[33m8af1a8f[m carousel dot height fixed
+[33m0ccaa2a[m dark dialog vs bg fix
+[33m37eb887[m join button color fix
+[33m7170f9e[m landing key support added
+[33m4753c8a[m dashboard widget fix
+[33mad2ccab[m text colors fix
+[33m6d096fe[m doc updated and removed inputstyle
+[33m26f1f34[m animation added
+[33m2cb5909[m blur removed bgcolor added
+[33m204e863[m pin display fix
+[33m60c63df[m sideber fix for new version
+[33m6de281a[m customer chart functionality added
+[33m84cc9ac[m added visitor chart functionality
+[33maff89c4[m revenue chart functionality added
+[33md411b17[m dashboard table functionality added
+[33m89a893c[m carousel logos and landing button changed
+[33mb250eb7[m login link fix
+[33m42cf6e6[m landing fixes
+[33meb4eb80[m Create product-placeholder.svg
+[33m3b222ae[m link fix
+[33m3d4fe9e[m splitter fix
+[33m4d0c8ad[m chart demo page fixes
+[33m1989b76[m horizontal scroll fix
+[33mac16305[m icons updated
+[33mc900dfc[m Text fixes
+[33mb730860[m profile menu chevron animation added
+[33mdf677b7[m dashboard fix
+[33mfaccb64[m dates fix
+[33m8a63f51[m landing image and text fix
+[33md7e8355[m layout colors added
+[33me664844[m ngshowcase test - galleria
+[33m46725a3[m ngshowcase test - tree
+[33m6672b19[m ngshowcase test - paginator
+[33m160f668[m ngshowcase test fixes - password
+[33m9019b72[m slim blur fix
+[33m7bf1b87[m loader added
+[33m76ba9bc[m menu fixes
+[33m4f6f7c2[m shades fixed
+[33m666138d[m calendar fixes
+[33m992333d[m extensions separated
+[33m1cf38f8[m miscs
+[33m9658766[m menus
+[33m17f86a1[m steps - progressbar
+[33m3943e40[m sidebar - dialog - overlays
+[33m68d7c66[m message - toast
+[33m1a5a2e6[m tree - treetable - picklist
+[33m5ec67c8[m dataview - orderlist added
+[33mc2f5015[m table - paginator
+[33m41350d2[m tabview - card
+[33mae468b4[m panel - accordion
+[33m345ff7b[m switch
+[33me419fa3[m calendar
+[33mcc485f7[m rating - slider
+[33mf4b7c0a[m togglebutton - selectbutton
+[33m678122f[m checkbox- radiobutton- colorpicker
+[33m2e1d116[m buttons added
+[33m61ec346[m theme
+[33mbe30e24[m basic theme variables and extensions added
+[33me86764a[m unused codes removed
+[33md25dccd[m landing added
+[33m2d765d3[m pages added
+[33m4a62967[m login page added
+[33m4f6eaae[m inline profile menu added
+[33m3fac152[m help page added
+[33m475ccdc[m invoice added
+[33mffee022[m widget page added
+[33mc0a91b5[m Update _rightmenu.scss
+[33m52e9976[m background image added, unused images deleted
+[33m9952881[m config fix
+[33m1ec2ec5[m right panel and search
+[33m4ad8266[m static fix
+[33m6a4cfe8[m last dashboard widget
+[33ma10c35e[m dashboard widgets
+[33m3411396[m new graphs
+[33m5ea1149[m dashboard
+[33m9ce09f5[m boxes added
+[33m9bb5d78[m topbar and indent
+[33m9cd8a19[m logos
+[33md6d45de[m sidebar pin added
+[33m840ef68[m horizontal
+[33m3a7bbe2[m overlay and mobile
+[33m6753325[m menus
+[33m1cf1a32[m sidebar menu added
+[33mae9a436[m footer
+[33m871b136[m slim menu added
+[33m92b7252[m menu function added
+[33mc9a4dbc[m static menu colors added
+[33mecdd214[m breadcrumb added
+[33mcd75f14[m static menu added
+[33m63e92e8[m overlay colors
+[33mbc38f00[m config - options added
+[33m07e682b[m overlay menu added
+[33mc566c0a[m horizontal fix
+[33m9fa4892[m menu style
+[33mdd43438[m new design started
+[33m12996f4[m new dev iteration
+[33mbf8f6d5[m[33m ([m[1;33mtag: [m[1;33m11.0.0[m[33m)[m set version
+[33mfc80730[m font fix
+[33m4da2ca2[m mobile fixes
+[33m51a7d31[m doc updated
+[33m02a39ea[m flexbox style updated
+[33m79260e3[m button demo updated
+[33m84c0588[m misc demo updated
+[33m65ddaec[m overlay demo updated
+[33m7fb3d59[m panel component updated
+[33m7dbc5c9[m input demo updated
+[33m95b6d52[m table demo updated
+[33m4dde37e[m Timeline demo added
+[33m13aa99e[m invalid state demo added
+[33m267840b[m media demo update
+[33m08bc237[m update something :koala:
+[33m625117c[m new dev iteration
+[33m85052ad[m[33m ([m[1;33mtag: [m[1;33m10.0.0[m[33m)[m all changes
+[33m7e108bb[m set version
+[33mdf4f67f[m tagged Atlantis NG 9.0.0
+[33mc324733[m doc updated
+[33m8bc030a[m set version
+[33m34fdf70[m tagged Omega NG 9.0.0
+[33mfc4830b[m doc updated
+[33m6b5e0b0[m lint test fix
+[33m0ae5167[m code highlight added
+[33m3b113f8[m #8683
+[33m2b5b59f[m Bolder text
+[33ma58ee6b[m #8682
+[33me46d0c8[m #8681, #7142, #8668, #8679
+[33m64e0de4[m menu updated
+[33m9551a39[m doc updated
+[33m6833b43[m update for v9
+[33me56449f[m add paginator text color
+[33m09a7a19[m menu changed
+[33mdaacb69[m Version Update
+[33m3d335b1[m Implement slim menu
+[33m4ada634[m change default theme
+[33m782c794[m set version
+[33me06e500[m tagged Avalon NG 9.0.0
+[33m9d6bd79[m set version
+[33m41b81a2[m tagged Barcelona NG 9.0.0
+[33mcff3d85[m set version
+[33m10501aa[m tagged Olympia NG 9.0.0
+[33m9c8472f[m set version
+[33mce0b01a[m tagged Roma NG 9.0.0
+[33m9401183[m set version
+[33mcdfbc1b[m tagged Sapphire NG 9.0.0
+[33ma5a8ed8[m set version
+[33mb98a812[m tagged Ultima NG 9.0.0
+[33mbb0ba49[m doc updated
+[33m356ab2c[m doc updated
+[33m7c0a57c[m doc updated
+[33m81193cd[m doc updated
+[33md874e48[m doc updated
+[33m517e08b[m doc updated
+[33m6412b2f[m Config fix
+[33m43c3c18[m Config fix
+[33m25dd133[m Config fix
+[33me70b871[m Revert to es2015
+[33mc8fc377[m Carousel demo style added
+[33me3eadd6[m ie fix
+[33m9a900c4[m doc updated
+[33m9bc2fa8[m doc updated
+[33m146d688[m doc updated
+[33m7e0210c[m Implement horizontal menu
+[33m0919471[m test fix
+[33m85061cc[m doc updated
+[33m8f2463d[m updates for v9
+[33m96aaa45[m Add paddings to overlay submenu
+[33m0e31eea[m Implement menu style to overlay menu
+[33m9e237c3[m Fixed #5642
+[33m3596c14[m new menu added
+[33m4d6582b[m Text fix
+[33m209c4c7[m Menu added
+[33md851351[m Update v9
+[33m240465a[m Revert to slim
+[33m98e6662[m Menu fix
+[33mff0b941[m Refactor topbar mobile
+[33mafc0eb5[m Implement right panel & menu structures
+[33ma7f92cc[m Cosmetics
+[33mbef8809[m doc updated
+[33mb561217[m test fix
+[33mb2d9b2e[m updated doc
+[33mebbd08d[m dialog fix
+[33mc6862d2[m placeholder fix
+[33m201b781[m updates for v9
+[33m484ee32[m Add id
+[33m0576d35[m branch for 8.2.0
+[33mcfee675[m Remove 8.1.9 branch
+[33mc6433be[m tagged for 8.1.9
+[33m3f22c4d[m branch for 7.2.1
+[33md886713[m Remove 7.2.0 branch
+[33ma29b7d1[m lint test fix
+[33m7fa6a49[m tagged for 7.2.0
+[33m3cdebcb[m removed scrollpanel
+[33m4e2b5f0[m Fixed #8400
+[33m061492a[m updates for v9
+[33m1c53486[m Fixed #8049, #8470, #8638
+[33m65663a2[m Fixed #7224
+[33m909cee4[m Fixed #7258
+[33m38e2683[m Fixed #8635
+[33maa8082b[m Fixed #7141
+[33mf3a99f3[m Fixed #8511
+[33mefe553d[m Implement landing mobile menu
+[33mf4a36fd[m Implement Landing & Landing Mobile
+[33m8cc05c9[m Fixed #8400
+[33mbb341f2[m Fixed #8638 & #8470 & #8049
+[33m8948789[m Fixed #7224
+[33me2dd7b0[m Fixed #7258
+[33m2806fb8[m Fixed #7207 && #8635#
+[33meb2fe76[m Fixed #7141
+[33m551d40d[m Fixed #8511
+[33mc04870b[m Version update
+[33m3ab426f[m Improve Steps' styles
+[33m74fb040[m Implement login page and animation
+[33m8581417[m new menu implement
+[33mf34e636[m v9
+[33m71f5486[m Tagged 1.0.0
+[33m6eea8b8[m Remove old tag
+[33m9244b8c[m test fixes
+[33m88e1e35[m Remove hardcoded bg
+[33m99acd2d[m Tagged Ultima
+[33m9218a84[m Tagged Ultima
+[33m15aa04f[m set version
+[33m97e352c[m Set dark-green as default
+[33m43fdbc2[m Cosmetics
+[33mf463ff5[m remove .gitignore
+[33m7200723[m Update version
+[33ma6f9baa[m Disable ivy
+[33mfcf54d5[m set version
+[33m665c8f0[m set version
+[33m4bf9d6d[m Doc fix
+[33mdc6f2b4[m Cosmetics
+[33m27a2902[m Cosmetics
+[33m63146c9[m Test and build fixes
+[33mec4fc40[m Lint fix
+[33mc54fbaa[m Menu fixed
+[33ma0b00c0[m ignore
+[33m2dd54cf[m ignore
+[33m83db823[m Doc fixed
+[33mc2098f7[m Routes fixed
+[33mf1be3ff[m Router menu added
+[33m08bafbd[m Config ie fix
+[33m766b41a[m Data demo fixed
+[33m9dbbdfe[m Refactor Topbar
+[33m52ae07a[m Update v9
+[33md15068d[m PrimeNG version update
+[33m891cd73[m colors added
+[33m8a0849b[m test
+[33m5e69010[m svn ignores for Ultima Vue
+[33m74de21b[m svn externals
+[33m9973d75[m remove assets
+[33mda0745a[m Add assets folder
+[33m13ec1a8[m Add exception pages
+[33m158ae44[m branch for 8.1.9
+[33m29c63be[m Remove 8.1.8 branch
+[33mceba76c[m tagged for 8.1.8
+[33mebbb140[m Update version
+[33m6c281b4[m Fixed #8637
+[33m53b3688[m Added initial files
+[33m6a8e5cc[m Create directory layouts-primereact/trunk/serenity-typescript
+[33md04c325[m branch for 8.1.8
+[33md7ab809[m Remove 8.1.7 branch
+[33mecf5397[m tagged for 8.1.7
+[33m3dd3b46[m So secret change
+[33m35d5571[m Fixed #7789
+[33mf545315[m Fixed #7196
+[33me6e0e6a[m Fixed #8632
+[33mbe8d6bc[m set version
+[33md6a9f06[m Fixed #8631
+[33m8d384c7[m tagged Apollo NG 9.0.0
+[33m4002322[m set version
+[33m66b80f5[m Fixed #8605
+[33m60431f8[m tagged Babylon NG 9.0.0
+[33mc1fc81b[m set version
+[33m54f3788[m tagged Mirage NG 9.0.0
+[33mc42dc17[m set version
+[33mdda888f[m Fixed 8618
+[33m37bac31[m tagged Paradise NG 9.0.0
+[33mfe7d906[m set version
+[33m254951f[m Fixed 8629 & 8604
+[33m0da1dd0[m tagged Prestige NG 9.0.0
+[33m5b22300[m set version
+[33m4b043a0[m tagged Serenity NG 9.0.0
+[33m23104ae[m doc and version updated
+[33m7c91b0d[m doc and version updated
+[33m6948eeb[m Fixed #8606 & #8610
+[33m85b9bea[m doc and version updated
+[33m1592c81[m doc and version updated
+[33ma10a32b[m doc and version updated
+[33m41b28eb[m doc and version updated
+[33mb64e204[m doc and version updated
+[33meb28170[m Change taglib.xml
+[33mb05e5e3[m doc and version updated
+[33ma9406ab[m Refactor dashboard
+[33m255dd93[m Add final widget to the dashboard
+[33m4d2a341[m set version
+[33m7b2a981[m tagged Apollo React 4.0.2
+[33mc72a055[m doc updated
+[33m65b5494[m IE icon fix
+[33meff4c43[m cosmetics
+[33m84a6316[m Icon fix
+[33m8a73d42[m Karma fix
+[33mfd4661a[m Karma fix
+[33m44968e6[m Revert pom.xml and add images
+[33m3b75c4c[m doc updated
+[33m8a77e2f[m remove images
+[33m9af209d[m Add new widgets
+[33m96d548c[m Karma update
+[33mfac60c4[m Add search item to topbar
+[33m090c641[m doc updated
+[33mc0022ad[m doc updated
+[33m86cb389[m doc updated
+[33m73d3ee2[m doc updated
+[33m4bd4f0f[m  Implement topbar items
+[33m66c90e6[m lint text fix
+[33m784b24a[m Doc update
+[33m4402e29[m Doc update
+[33m99c4ed0[m Doc update
+[33m5cba24d[m Test fix
+[33mfd1dd9e[m Test fix
+[33mc7ac742[m doc updated
+[33ma5fb936[m Lint fixes
+[33m02c5d7e[m Doc update
+[33m161efb0[m Doc update
+[33mef4852c[m Router fix
+[33m85ba713[m Implement topbar
+[33m4d0529b[m Config IE fix
+[33meb4be04[m Config IE fix
+[33mdafc406[m data demo fixed
+[33m03849db[m Demos and docs fixed grayscale added
+[33m7d54d6e[m router fix
+[33m17e7c5a[m Fixed #8629
+[33me32a46f[m Update to V9
+[33m8cad6d7[m Lint fixes
+[33m3d51e81[m IE config fix
+[33m4037e2a[m Fixed autocomplete issue on layout.js
+[33me9c6b1c[m Menu fixed
+[33md947ceb[m v9 updates
+[33m89fd15c[m Implement footer and new widgets
+[33m61c6da0[m Menu fixed
+[33md0eae23[m Cosmetics
+[33mc9b5f50[m Menu fixed
+[33m8bfc43a[m lint, test fix
+[33ma426fa7[m new menu added
+[33m029e7e4[m Implement dashboard
+[33mee58a87[m router fix
+[33mf16f01f[m Update live editor variables
+[33m0ce16dc[m Port changes to live editor
+[33m5891a3a[m Unified focus visuals for the remaining parts by porting from vue
+[33m6a28777[m Ivy false
+[33m89309bd[m Lint and prod build fixes
+[33m00d849b[m fixes for v9
+[33m4585623[m Menu fixed
+[33mdf467fa[m Remove duration
+[33m5aeb45f[m Remove responsive dt
+[33m8c0dd54[m Unified placeholders
+[33mde87ff0[m Removed maskOpacity
+[33m09e4c23[m Removed galleria, add terminal cosmetics
+[33m2da8acb[m Navigation added
+[33mcb3cab2[m Styling for block ui and new variables for component-overlay
+[33m1a4c263[m Router doc fixed
+[33m4cae136[m IE support for config
+[33m925bce3[m updated
+[33mc57c6f4[m Demos&docs added and  calendar fixed
+[33m94df89f[m Add fonts
+[33mb3898b3[m Remove images
+[33m9b37c48[m Project Created
+[33mefab38b[m Create directory layouts/trunk/pandora
+[33m8602d98[m ng test lint prod fix
+[33ma00e7e8[m ivy fix
+[33ma45f6c0[m router added
+[33ma123610[m Gray scale added && dialog fixed
+[33mff5b7ef[m IE11 fix
+[33maf509bb[m updates
+[33mfa3a92a[m Update Versions to 9
+[33mc81a6a1[m Add responsive breakpoint variable
+[33m3f1521e[m Ng lint & prod build errors fixed
+[33mff3e542[m Refactor topbar
+[33m6879d2c[m Cosmetics
+[33mbb14600[m Fixed #5674 - Improve button styles on Nova and Luna
+[33m6346611[m Fixed #5674 - Improve button styles on Nova and Luna
+[33md0f49b9[m Fixed #5674 - Improve button styles on Nova and Luna
+[33m68439a8[m Improve button styles
+[33m003dbf1[m fixed floating label issue on SelectOneMenu
+[33m98093bb[m Doc update
+[33m37d6092[m Implemented new Application Menu
+[33m739cdf2[m Fixed alignment issue on floating label
+[33m71b89b8[m split button fix
+[33m9bee9f5[m New dev version
+[33m363e6fe[m Tagged 4.0
+[33mda1d1c0[m Set version as 4.0.0
+[33mdf27b75[m Version up
+[33me209d34[m refactor config
+[33m979403c[m pages updated
+[33mef0e082[m Implement config
+[33mfaee629[m renamed
+[33m2e213fc[m Fix padding issue
+[33mf54c982[m Add content.css and refactor pages
+[33m6b97f6a[m Remove .css.map files
+[33m6a55691[m Add breadcrumb
+[33m0693a64[m menu fixed
+[33m6fdc726[m menu class fixed
+[33med4f1de[m Add primeicons
+[33me2a1f2f[m Version update
+[33mf282be8[m branch for 7.2.0
+[33m301bd5a[m Remove 7.1.9 branch
+[33m28b4fc6[m tagged for 7.1.9
+[33m120429d[m Fixed #6905
+[33m4dc49ed[m Fixed #6804
+[33m81cfd5e[m Fixed #8184
+[33me6a380c[m Fixed #6694
+[33m3b0815b[m Fixed #6694
+[33mb7da198[m Fixed #8044
+[33m1927dac[m Fixed #8167
+[33mbb2c7c7[m Fixed #6884
+[33m204a93c[m Fixed #6891
+[33m8e3d28b[m Fixed #6901
+[33m21237fb[m Version update
+[33m71c5b32[m deleted and updated
+[33m9c8b620[m Add .eslintrc.js
+[33me96c609[m deleted node module
+[33m1443c64[m Created
+[33mb5333b2[m Create directory layouts-primevue/trunk/prestige
+[33m39e7250[m Unified focus visuals, add placeholder colors
+[33mcddc407[m Fixed onemenu floating label issue
+[33m99f87cf[m overlay fix
+[33m6d9f0f0[m dialog fix
+[33m108d3b9[m wizard page added
+[33mbeae2e0[m Update to NG9 and Table demo added
+[33m97737ac[m ng lint will not be forgotten again exclamation mark
+[33md276cc4[m Finalized
+[33m9dc5de5[m Refactor
+[33mfce0c5c[m invoice added
+[33m64421ef[m Refactor
+[33mec1f9e3[m Change License
+[33m11031e6[m Refactor
+[33m4240a46[m Added files
+[33mdf659e1[m Create directory primefaces/branches/8_0_1
+[33m5939a16[m Apollo menu fixed
+[33ma97a10d[m help page added
+[33m76214bf[m paginator fix
+[33mb4041a2[m Added Table Demo and fixed form components
+[33m73acccd[m Dataview demo added
+[33m6c3f3ea[m update 9
+[33m8b86605[m set version
+[33m0b1241f[m tagged Ultima React 4.0.1
+[33m0e8d58e[m IE fix
+[33mfe6de59[m set version
+[33m719f432[m tagged Serenity React 4.0.1
+[33m26db020[m IE fix
+[33m863c4f6[m set version
+[33m26b016b[m tagged Sapphire React 4.0.1
+[33ma93243e[m IE fix
+[33m98fd4ab[m set version
+[33mdc46aff[m Refactor
+[33md958faa[m Set correct type
+[33ma2551ae[m tagged Roma React 4.0.1
+[33m01a1129[m IE fix
+[33m88f5942[m ie support
+[33m60592b8[m set version
+[33me9cbaa2[m tagged Babylon React 4.0.1
+[33m549893b[m IE fix
+[33m35ee376[m Refactor
+[33m33a5807[m Refactor
+[33md1ff098[m Refactor
+[33m1f61fe8[m Refactor
+[33m33bbcde[m Refactor
+[33mebcdf43[m Refactor
+[33mea4bab5[m Refactor
+[33m448c64b[m set version
+[33m6ef4155[m tagged Avalon React 4.0.1
+[33m0012d5c[m IE fix
+[33m5d2b711[m svn ignore
+[33m7402c0c[m set version
+[33m7b431fe[m tagged Apollo React 4.0.1
+[33m07a981a[m IE fix
+[33m9fdc3a5[m set version
+[33m8e0d9c2[m import 7.0.13
+[33mf08b2e7[m tagged primefaces 7_0_12
+[33m4e00247[m set version
+[33mf1de2ae[m Fixed #5629 - RowExpansion doesn't work as expected on Frozen DataTable with columnToggler
+[33m51c81b2[m Fixed #5522
+[33m38956cb[m Fixed #5628 - Add csv export support to DataTable with row expansion
+[33m63b5566[m set version
+[33mdc9648a[m updated
+[33mb2d35a6[m tagged Ultima React 4.0.0
+[33m8df0136[m set verison
+[33me14fca1[m tagged Sapphire React 4.0.0
+[33m6094052[m updated
+[33ma9af0f4[m set version
+[33meb36781[m tagged Serenity React 4.0.0
+[33m2850987[m updated
+[33ma830859[m set version
+[33m0569acf[m tagged Roma React 4.0.0
+[33md65ba95[m updated
+[33m8a371e1[m set version
+[33md1f2c37[m tagged Babylon React 4.0.0
+[33m3b57d5b[m doc and versions updated
+[33m3c9ea85[m Refactor Config
+[33maa759ea[m Refactor Config
+[33m0909365[m Refactor Config
+[33m73d0120[m Refactor Config
+[33mcd4dd0a[m  Refactor Config
+[33m046e448[m  Refactor Config
+[33m167c44b[m Refactor Config
+[33mfe6a442[m Fixed config issues on IE
+[33m3090605[m doc fix
+[33m4563990[m new version
+[33m1558619[m doc fix
+[33m43c8e76[m file
+[33med1185d[m removed file
+[33ma9533e4[m tagged Avalon React 4.0.0
+[33m1b73f9c[m updated
+[33m4dec581[m set version
+[33m1f51b83[m tagged Apollo React 4.0.0
+[33mb8b7d65[m fix
+[33m7592ccb[m polyfill updated
+[33m692e8e3[m Set licenses text
+[33m092560c[m Enhancements to Elite purchases
+[33m436c6e6[m new version
+[33m85ad857[m updated versions
+[33m8bd44ac[m doc updated
+[33m9c3e9cd[m maven-gpg-plugin update
+[33m4e1fe22[m topbar transition added
+[33m5ab22b0[m main menu transition added
+[33m4c9406c[m accessibility updated
+[33m367223d[m Remove 8.1.6 branch
+[33m388ac6c[m branch for 8.1.7
+[33m96110c0[m configurator and clonelink added
+[33maa4d058[m tagged for 8.1.6
+[33md5b52e6[m branch for 7.1.9
+[33mcdb5717[m Remove 7.1.8 branch
+[33md139856[m tagged for 7.1.8
+[33m16adf4b[m Fixed #7820
+[33m5db5029[m Fixed #7820
+[33m14987fe[m menus and other demo pages updated
+[33mf23104f[m Fixed #8335
+[33m07f1b56[m Fixed #8579
+[33mb9527ec[m Fixed #8569
+[33m34d5238[m Fixed #8578
+[33maa00e77[m set version
+[33m7f1c380[m tagged Apollo React 3.0.1
+[33mb66f47b[m new version
+[33m66c63c7[m fix
+[33m104f283[m updated data, added carousel
+[33m6ad889b[m fullcalendar fix
+[33m084cfc7[m fullcalendar fix
+[33m69d7dda[m Fixed #4458
+[33m0d0da79[m Fixed #7308
+[33ma56a826[m Fixed #5826
+[33mae03e7a[m Fixed #7008
+[33mb6c2033[m multiselect label fix
+[33mb275081[m Fixed #5613 - Add ariaLabel attribute to SelectBooleanCheckbox
+[33m859ea94[m Fixed #5612 - startAtBottom attribute does not work as expected on DataScroller
+[33mdf02efd[m Fixed #5612 - startAtBottom attribute does not work as expected on DataScroller
+[33m06bf3d7[m pages added
+[33m6d4ee46[m Added galleria styles
+[33m4ab3075[m doc updated, codehighlight added
+[33ma363cd6[m inlineprofile fix
+[33ma7b4e0a[m configurator added
+[33m2b2bc62[m focus updated
+[33mf1042ec[m removed scrollpanel
+[33me2fe04a[m theme ande versions updated
+[33m04b97af[m Refactor #6953
+[33m03ae6f0[m Fixed #6953
+[33m9e52988[m pages added
+[33ma38eb2b[m Fixed #7970
+[33m5434270[m Fixed #- Turbotable - Multisort with null values doesn't quite work correctly [\#8001](https://github.com/primefaces/primeng/issues/8001)
+[33m5148b17[m Fixed #8215
+[33m78fd943[m Fixed #8039
+[33m4987206[m Fixed #8065
+[33m6acdb8d[m Fixed #8059
+[33m6672a47[m Fixed #8055
+[33meaa812c[m Fixed #7996
+[33m0e0a54f[m codehighlight added
+[33m78a41a5[m configurator and raplace link added
+[33m03524a9[m Fixed #8102
+[33m75663d9[m set new version
+[33m1a97f17[m tagged adamantium
+[33mff1fe56[m utils updated
+[33m1d847ac[m set version
+[33me1cd7ea[m Refactor for 7.x versions
+[33m198375f[m sidebar focus updated
+[33m4d58c49[m removed scrollpanel
+[33me198a30[m dialog updates
+[33mbc68ab7[m data updates
+[33m1230b31[m branch for 8.1.6
+[33made5697[m remove 8.1.5 branch
+[33m890c21f[m tagged for 8.1.5
+[33m1488a3e[m branch for 7.1.8
+[33me1411a3[m remove 8.1.7 branch
+[33m35dbeb9[m tagged 7.1.7
+[33m9811901[m Reimplemented Steps style
+[33m4c16f55[m Fix blocked scroll
+[33m9b5b048[m datatable edit fix
+[33mf30d0e2[m Remove 7.1.7 tag
+[33m2d6c224[m refactor dropdown
+[33m663e950[m branch for 7.1.7
+[33m2221635[m Remove 7.1.7 from tags
+[33mf59cd21[m Refactor dropdown
+[33m5ea7b1b[m tagged for 7.1.7
+[33m190be12[m Version update
+[33m5280522[m Change version
+[33mb02f9eb[m Refactor on growl style
+[33m5279bce[m Fixed #8546
+[33ma9635aa[m label color fix
+[33m45dc073[m Fixed #8533
+[33m57ac81c[m Fixed #8532
+[33m8350e46[m Fixed #8497
+[33m2968a47[m focus fix
+[33mcfaf70d[m focus fix
+[33mba27dde[m Fixed #7868
+[33m4af111c[m focus fix
+[33mae8e793[m code highlight added
+[33mdf68c69[m sidebar focus update
+[33mafcf28b[m Tagged Siberia
+[33m0b5add4[m Tags
+[33md5e1f64[m set version
+[33mb2b7c4a[m Text update
+[33m137b932[m configurator added
+[33m9bce72e[m Disable paste on inputs
+[33me43d1f8[m refactor
+[33ma8994e3[m refactor
+[33mb793b7e[m refactor
+[33m1a77f3e[m refactor
+[33m1257f2f[m refactor
+[33m35883ea[m Refactor
+[33md3b909a[m Refactor docs
+[33mfcf0414[m Refactor
+[33me818aad[m Refactor
+[33m419cdb6[m Refactor
+[33m9aaea6c[m Refactor
+[33mfddc41c[m Refactor
+[33mb8c225d[m Remove viewnames
+[33mf2ddf8f[m Refactor
+[33m3c2736b[m Refactor docs
+[33mb320b12[m removed scrollpanel
+[33mf2e3ca8[m datapage updated, carousel added
+[33m09af003[m Refactor
+[33m1f8f1ca[m Refactor
+[33m3009e8f[m Refactor
+[33m6d0f846[m Refactor
+[33mc99250a[m Refactor
+[33mb9454f1[m Refactor dashboard
+[33ma5b1487[m Fixed FF issue
+[33m2bfd76a[m Refacor
+[33mbfbd16a[m Refacor
+[33m65a4824[m removed fontawesome updated dialog
+[33me29ce74[m Refacor table
+[33mc045979[m Refacor layout-themes
+[33m41bc8ce[m pages added
+[33m2cf8747[m Refacor dashboard
+[33m8baec9d[m Refacor dashboard status widget
+[33m5ffa416[m Refacor dashboard
+[33m1a753f5[m Refacor Landing
+[33m51fbcef[m Refacor Landing
+[33m6d03ad8[m Add missing layouts to guestpreferences
+[33mb03d19a[m Refactor megammenu border colors
+[33m7782660[m Refactor dashboard table
+[33m60745e2[m Refactor
+[33m84639bd[m Refactor
+[33m8253038[m Refactor
+[33m56480b0[m Refactor
+[33m2fe25b9[m Fixed SCSK-159
+[33mc57edb9[m Refactor
+[33md40880c[m Refactor dashboard
+[33mb598b44[m Refactor on dahsboard datatable
+[33md2af30c[m Refactor components
+[33md4a2187[m Refactor login page
+[33m5f94984[m remove rightpanel.js
+[33m1c33374[m Refactor rightpanel
+[33m538e3ad[m Add sections.js
+[33mce0f9ce[m Refactor
+[33m766a9b4[m Delete right-panel.xhtml
+[33mf1afa21[m Refactor status widget
+[33m2f76e5d[m Refactor
+[33m3df2702[m Refactor
+[33m9e3e2dd[m Fixed #88526
+[33mc04e83c[m Fixed #8519 and #8340
+[33m19b16a2[m Refactor
+[33m410c1f8[m Refactor
+[33m0256ce6[m Refactor
+[33mc71107b[m Refactor
+[33m119cfb1[m Refactor
+[33mc0d6de9[m Refactor dashboard
+[33m66c1a05[m Refactor theme
+[33me3cc198[m Refactor spinner
+[33m5c73a54[m Refactor menu horizontal
+[33m42efa93[m Refactor topbar
+[33m526e855[m Refactor Pages
+[33m6ad08e8[m Refactor menus
+[33m38e190e[m Refactor menus
+[33md11de00[m Fixed #8500 and #8498
+[33m524578c[m Refactor
+[33m19f4d62[m Refactor topbar and horizontal
+[33m20d8d68[m Fixed #8031
+[33md49686b[m Fixed #8116
+[33m654a831[m Refactor config
+[33m02f80ca[m Refactor topbar
+[33m5ecb10d[m Refactor topbar
+[33m71d3ed3[m Fixed #7963
+[33m4fbe839[m Refactor config
+[33m70ca829[m fixed menu issues
+[33mda72c20[m Refactor menus
+[33mef73abf[m Refactor menus
+[33me240c15[m Fixed #7907
+[33mb49aa44[m Added inline-flex mixin
+[33ma403dd8[m Fixed #7693
+[33m4e2c132[m Fixed #7939
+[33m0b77707[m Fixed #6521 and #7441
+[33m1e897d1[m Refactor #7950
+[33meceeefb[m Fixed #7950
+[33m64273d4[m Fixed #7795
+[33mdbc9749[m ignore css files
+[33ma84d1fc[m remove css files
+[33m37a0971[m set version
+[33mf81c64c[m Fixed SCSK-159
+[33m28f7517[m Refactor
+[33m252c132[m Refactor
+[33m8fc255a[m Refactor
+[33ma40ec12[m Refactor
+[33m499bfb1[m doc updated
+[33md83b2a7[m sidebar focus update
+[33m290d2e2[m Fixed SCSK-159
+[33m3cf1c21[m Import SCSK 6.2.18
+[33m4517f03[m data page updated
+[33m1002f97[m update version
+[33m6a46a25[m Refactor Dashboard
+[33m8825aa4[m Refactor Dashboard
+[33m3c70859[m codehighlight added
+[33mff95d0d[m Refactor dashboard status widget
+[33mfc835e6[m menu fix
+[33mb865eb4[m menu fix
+[33m46c62ac[m sidebar focus update
+[33m5057d54[m Refactor
+[33m0a34f51[m branch for 8.1.5
+[33m0a0b040[m remove 8.1.4 branch
+[33m11c7b16[m tagged for 8.1.4
+[33m7f63f02[m branch for 7.1.7
+[33m499aab0[m remove 7.1.6 branch
+[33mfa9ce12[m tagged for 7.1.6
+[33m7413616[m Refactor
+[33m3a3f422[m Refactor
+[33m1882643[m configurator added
+[33m87af4f7[m Script deleted
+[33m01d1240[m Footer updated
+[33m92ead17[m Doc Update
+[33m3056af6[m Fixed #8507
+[33m8b35798[m Footer updated
+[33m7f0f563[m Fixed #8507
+[33mbfe391d[m Refactor config
+[33m30017ad[m Table doc updated
+[33mc5c0797[m Calendar doc updated
+[33ma6ea198[m extend map widget
+[33m7af55af[m SplitButton doc updated
+[33m7e18dd7[m fix typo
+[33m16a0a59[m optimize images
+[33m50b19ce[m add uvs layout
+[33m3528214[m fix megamenu seperator issue
+[33m8cbf454[m fix volga layout
+[33mca70b48[m fix sakha layout
+[33m76d2954[m fix ural layout
+[33m163f0bc[m fix light layout
+[33ma46c927[m add first flat topbar layout
+[33m9d5c9c8[m add new layouts
+[33mc6683eb[m Fixed #8506
+[33m6ebbaf3[m Fixed #8506
+[33m152894c[m Fixed time diff
+[33me6a97fd[m dialog update
+[33m7b3b15e[m removed login button from the login page
+[33m51a511a[m overlay fix
+[33me0c6462[m scrollpanel removed
+[33m0aaf886[m fix some colors
+[33m692b9a8[m Fixed showOn=button alignment issue on Calendar
+[33m40e019c[m table fix
+[33m2fdae33[m table fix
+[33m2dbcb4c[m table fix
+[33m89474d8[m data page updated, carousel added
+[33mcd022a8[m Fixed SCSK-159
+[33m6face7b[m Fixed SCSK-159
+[33m49f41bb[m data page updated
+[33m734afa3[m focus for table rows
+[33mac72803[m Refactor layout topbar
+[33mad490a7[m Refactor layout themes and layout.js menu events
+[33mf743b70[m updated version and removed fontawesome
+[33m36bcc5e[m Refactor config
+[33mcb4b6ad[m Support for null affilate project
+[33m55afd89[m Add formatting
+[33me66a985[m Add double
+[33m6a15140[m Add order
+[33m10ed6b6[m Add order by
+[33mf802dad[m Fixed affilate earnings
+[33m7c82ad2[m refactor cookie name
+[33m305b383[m remove old files
+[33m9e2b96c[m implemented affiliate program
+[33m6cf1ef6[m set version
+[33mc693ba7[m tagged Roma NG 8.0.1
+[33m5f78655[m new version and doc updated
+[33m3bac3b8[m Refactor menus
+[33mac8d847[m config fix
+[33mc3ee5e9[m Fixed #7357
+[33mcbe0610[m config fix
+[33m91578a9[m Fixed #8477
+[33m18aced4[m Fixed #8478
+[33mb7baa23[m Fixed #8337
+[33m68abdfb[m carousel added
+[33m83b6ff1[m Fixed #8278
+[33m7116a87[m lint and test fix
+[33m56f85e1[m set version
+[33mbf4ec03[m tagged Apollo NG 8.0.1
+[33m907eec0[m new version and doc updated
+[33mf5a8448[m add tomsk layout
+[33m53e5dad[m carousel added
+[33m7489444[m some optimizationz
+[33m6d3b527[m add caspian layout
+[33m17cba9d[m ng lint and test fix
+[33mbfb7c00[m add kolyma layout
+[33m950cd03[m add tuva layout
+[33m4c3eca0[m set version
+[33m50dfa99[m sample fix
+[33mdcf25c2[m Fix logo issue
+[33m74a3e7d[m sample fix
+[33m738f1bf[m sample fix
+[33mb8ae307[m add yakut layout
+[33m7c92c44[m set version
+[33mf92ef51[m fix north layout
+[33m3582530[m add new layoutz
+[33m1e547f7[m sample fix
+[33m965c13f[m sample fix
+[33m92cd1a5[m tagged Avalon NG 8.0.1
+[33mc295ca5[m new version and doc updated
+[33m827a925[m config fix
+[33mbe16f98[m carousel added
+[33m6e34bcf[m Refactor grouped menu
+[33mc6f2f26[m Refactor Dashboard
+[33mc5a7c8d[m Refactor Pages
+[33m35ca5a5[m Refactor guestpreferences
+[33mb90d914[m add lena layout
+[33m09ee9e2[m refactor config
+[33m94f71e0[m add baikal layout
+[33m025502a[m Refactor config
+[33mb605ff7[m Fix theme issue
+[33me63e404[m add arctic layout
+[33mad3e06d[m fix altai layout
+[33m947ebf6[m add altai layout without config image
+[33m86f4488[m optimize existing layout images
+[33m82e725c[m fix existing layout colors
+[33mcb640c8[m Fix layout and component theme match issue
+[33m946a0bf[m add moss layout
+[33m66eacc5[m add cyan theme
+[33mef02a39[m add bluegrey theme
+[33m01c859f[m add purple theme
+[33m67f7931[m add green theme
+[33m519d765[m ng test and lint fix
+[33m1e6ab45[m Fixed #8466
+[33m0709301[m Fixed #8484 and #8279
+[33m2dfd29f[m add lime theme
+[33mc3c7266[m add indigo theme
+[33m4c5d2f0[m Fixed #7448
+[33m292c39d[m add blue theme
+[33m8eb52b3[m add deep purple theme
+[33m9fe7442[m Fixed #8479
+[33ma5fa17c[m add teal theme
+[33m86b14d4[m add brown theme
+[33mc27972d[m add yellow theme
+[33mfe29b46[m add pink theme
+[33mb3038e2[m Fixed #7901
+[33mc31352c[m add amber and red themes
+[33m8970711[m Fixed #7904 and #8003
+[33m309cb06[m set version
+[33m3f09c70[m tagged Babylon NG 8.0.1
+[33mea5eca8[m doc updated, new version, carousel added
+[33mdb5ca5a[m config fix
+[33md9707e2[m ng lint fix
+[33ma6c788f[m Fixed #7919
+[33m3baae85[m Fixed #7974
+[33m64f7f24[m Refactor
+[33mab1e923[m Implemet component themes into layout options
+[33m9b02dc6[m Fixed #7832
+[33m966d23f[m Implemet component themes into layout options
+[33m8f6c78b[m Fixed #7923
+[33mdcdb680[m Implemet component themes into layout options
+[33mb1f17c8[m Fixed #7658
+[33m1a7f4c9[m Fix dark-light logo issue
+[33m9ebf672[m Fixed #7187
+[33m51b7b1d[m themes directory fixes
+[33m33c723a[m themes fresh start
+[33m9828cad[m Fixed #7757
+[33mf26a968[m add directories to configurator images folder
+[33m188ad96[m tagged Ultima NG 8.0.1
+[33mf0f3b83[m doc updated and new version
+[33m50b25cf[m carousel added
+[33mc128eb7[m ng lint and test fix
+[33ma4220ce[m add configurator images
+[33m85e1033[m branch for 8.1.4
+[33m0106d93[m remove 8.1.3 branch
+[33m4c3fa97[m tagged for 8.1.3
+[33mb062253[m Fixed LTS name
+[33m1b0a9aa[m Rename branch
+[33m77327f1[m Delete tags
+[33m2045c12[m set version
+[33m631d442[m branch for 8.1.5
+[33mfd60eeb[m remove 8.1.4 branch
+[33md65342e[m tagged for 8.1.4
+[33m19b412f[m Convert to LTS
+[33mcace95c[m branch for 8.1.4
+[33mcf6b1c6[m Remove branch
+[33m972fa31[m tagged SERENİTY NG 8.0.1
+[33m4adbcc1[m new version
+[33m8a01302[m doc updated
+[33m5b0b3bd[m tagged for 8.1.3
+[33mf7c8c58[m branch for 7.1.6
+[33mbc96380[m remove 7.1.5 branch
+[33m07a58b7[m doc updated
+[33m03aea96[m tagged 7.1.5
+[33mc8b170a[m add lib
+[33m230110a[m carousel added
+[33mff08be4[m lint and test fix
+[33m0219d82[m Refactor horizontal menu
+[33m9c6086e[m Refactor menu behavior
+[33m82469e2[m delete blue theme
+[33m8cd7cd1[m change name of custom layout
+[33m0b43bbc[m Fixed #5425
+[33m4ddf433[m Fixed #5557
+[33m9fe0313[m custom 5.1.7 for SCSK
+[33ma716968[m Ready to upload themes
+[33m0d78fc5[m menu fix
+[33m6cfd14d[m menu fix
+[33m1c19e32[m focus fixed, doc updated
+[33m322cde5[m Fixed #5557
+[33m3b91329[m custom 5.3.8 for SCSK
+[33m8df4581[m Create directory clients/scsk
+[33mc339252[m configurato added
+[33m5865ee0[m config fix
+[33ma373eff[m Fixed steps
+[33ma93b91f[m Updated variables
+[33m54aafaa[m Focus visuals and refactor
+[33m8209e87[m Fixed #5557
+[33m7c8d306[m Fixed #8431 #8474
+[33mb9b5b1f[m Refactor menu_horizontal
+[33mcee76a2[m Focus visuals unified
+[33m04a3d9f[m Fixed #8474 #8431
+[33md828f29[m codehighlight added doc updated
+[33m0a45573[m Implemet layout themes and fix horizontal issue
+[33m32afdce[m doc updated
+[33mc42ca88[m doc updated
+[33m5a3ddbf[m demo pages update
+[33mace632e[m cosmetics fixes
+[33ma70d450[m carousel added data page updated
+[33m7ccde80[m Added sortable column badge style
+[33mf9744f7[m Fixed #8312
+[33mc99b2d4[m removed fontawesome
+[33m926e66d[m Fixed #8395
+[33mec1f9c1[m Fixed #8398
+[33m04419e4[m Fixed #8408
+[33m8d67f29[m Fixed #8417
+[33m4e31c4a[m updated primereact and fullcalendar
+[33mbd5ab36[m Fixed #8320
+[33mffaf1b0[m Fixed #8226
+[33m8bd7fa3[m fixed #8334
+[33me5f70c2[m remove fontawesome
+[33mbd6f4f0[m configurator and replace link added
+[33maf931ea[m Version changed
+[33m7d7308a[m Fixed #8334
+[33m3234094[m Fixed profile
+[33m5c9a5a9[m codehighlight added
+[33m9c85cb1[m Refactor
+[33mb4d5a94[m slim profile fixed
+[33m1e00ab3[m Fixed #7808
+[33md782c47[m Fixed #7773
+[33m6fdd069[m Fixed #7793
+[33m5e29b32[m Fixed #7799
+[33m6aab3d1[m Fixed #7895
+[33m8a6b010[m Fixed #6318
+[33m16d52ee[m dashboard image fix
+[33m145610f[m Fixed #7897
+[33m395c117[m Fixed #7718
+[33m3ba4a6f[m fixed #7729
+[33m68fac6d[m Fixed #7540
+[33m230f099[m chart data updated
+[33m35ca49e[m mobile menu fix
+[33m76fb404[m mobile menu fix
+[33m8c11075[m Refactor on sidebar
+[33m12c9d7e[m branch for 8.1.3
+[33m8264dee[m remove 8.1.2 branch
+[33mf7405c1[m Tagged 8.1.2
+[33m1f16d38[m Ignore node_modules
+[33m918f204[m Prepared for 8.1.2
+[33m06be10e[m Imported 8.1.2
+[33m7dda0dc[m Imported 8.1.2
+[33m2895962[m New dev version
+[33m4b5b900[m Tagged 7.1.4
+[33mf3e9f6b[m Fixed js error
+[33m04e1859[m Ignore node_modules
+[33mbc9b7c4[m remove unused files
+[33m1b85746[m First Avenger
+[33mf99589b[m mobile menu fix
+[33m5923b66[m Remove trunk
+[33m71207a4[m Add NG
+[33m0c2c235[m Remove NG
+[33m680a50f[m mobile menu fix
+[33me9aee1e[m EL fix
+[33m608fb82[m EL fix
+[33m0261d8d[m fixed empty cards
+[33m9788294[m fixed ipn
+[33md7b6db9[m paginator fix
+[33mc7bbfaa[m set version
+[33mcbf2b85[m fixed extended license bug
+[33m4955fdc[m add text
+[33me9b7d60[m add cards
+[33m280c286[m Refactor
+[33mb9c6457[m elite form enhancements
+[33m114fa0b[m cosmetics
+[33m8267a0d[m cosmetics
+[33mc0ce451[m Fixed LTS submit bug
+[33mff844ae[m Fixed upgrade dialog
+[33md791924[m Store enhancements for LTS and refactor
+[33ma03a28f[m Refactor Theme
+[33m4cb0e1e[m Implement config and refactor menus
+[33m24c60a1[m tagged babylon 3.1.2
+[33mbe13f9b[m set version
+[33m7d4ccce[m Refactor Dashboard
+[33m5bbd27e[m Refactor Landing Page
+[33mddbda84[m Implement Landing Page
+[33m91b678a[m Fixed IE11 issue
+[33m3c82373[m Tagged Serenity 1.0.0
+[33m64aebf8[m Remove tag
+[33ma3219f6[m Fixes on landing contact form for floating labels and margin for column filters
+[33m7c4b587[m Remove css
+[33m9885538[m onur test fix
+[33mf70080f[m onur test fix
+[33m8c95ee0[m dataview fix
+[33m744fe3a[m onur test fix
+[33m6d04321[m special image added
+[33m68d6c86[m onur fix
+[33m8e657b1[m Tagged Serenity 1.0.0
+[33m2d03c76[m Tagged 1.0.1
+[33m7b88cc0[m Tagged 1.0.1
+[33m1bdee74[m Tag
+[33m7400d91[m set version
+[33me14864f[m messages fixes
+[33me7510f7[m remove css
+[33m80ed6b9[m New dev
+[33mdd4ca8a[m Tagged 1.0.1
+[33mc9c9e03[m fixed megamenu padding and validationmessage
+[33maabaf15[m Remove tag
+[33m5b81e82[m Avalon 1.0.1
+[33m128bf54[m message cosmetics
+[33m4e889df[m Avalon 1.0.1
+[33m6d38807[m lint fix
+[33me85e587[m Avalon 1.0.1
+[33m5d1e5c5[m Remove old tag
+[33m8dfc890[m Image fixes
+[33m6d88c5d[m remove images
+[33mbec9185[m message fix
+[33m44b3d45[m remove gen css
+[33m1afd272[m theme update
+[33m76a84cb[m svn ignores and docs
+[33mfb2bc5a[m Implement Template Pages
+[33mad41ef4[m colors added
+[33m6bb9af1[m doc menu updated
+[33m1ec89be[m New dev
+[33m5e3208a[m Tag Sapphire 1.0.1
+[33ma21ad6c[m transition added
+[33m328b9f0[m Set version
+[33m695ef27[m menu access added
+[33mea14764[m Tabmenu cosmetics and menu links update
+[33m8b49013[m Floating label support
+[33mbf1f4b3[m Implement Rightpanel
+[33mc9ace68[m doc updated
+[33m85ca0fe[m cleanup css
+[33m28dd5bd[m configurator added
+[33m2254148[m Add breadcrumb navigation for new pages
+[33mdc5dd8a[m Refactor
+[33m53d437e[m added codehighligt and updated doc
+[33m18b784c[m Fix config height
+[33m4b9c598[m Refactor
+[33m0eeddd0[m Implement menus
+[33m4df8e7f[m Tagged Avalon 1.0.1
+[33m7c6da71[m Set version
+[33me38d4c0[m Remove css
+[33m1aa746d[m Remove css
+[33m467c025[m icon cosmeticss
+[33m23f4ce9[m Fixed #5501 - Add decimalSeparatorAlternative attribute to InputNumber
+[33m5b69993[m mobile menu fix
+[33m653839b[m dataview fix
+[33m9626fcd[m dataview fix
+[33mfe54789[m carousel added and data demo updated
+[33m541389a[m filter fix
+[33mfe2890f[m updated menu demos
+[33mdaf3a4f[m version updated and added tooltip
+[33mbcfb0c9[m ripple fix
+[33md0ea27e[m sample updated tooltip added
+[33me25536e[m cosmetics
+[33meb88372[m cosmetics
+[33maa70ca4[m New dev
+[33m0e46120[m Tag Babylon 1.0.1
+[33m91ee0ef[m Remove tag
+[33m4b60367[m set version
+[33m3fc766c[m table header cosmetics
+[33mf030f08[m bigger icoms
+[33m98b75ac[m add mozilla font antialising
+[33mf1383e6[m add p tag
+[33ma3f27c7[m New dev iteration
+[33m04e5510[m Tagged Babylon Vue 1.0.1
+[33m9b0f6f6[m Set version
+[33m9409094[m Add p tag to content, removed dark border
+[33m81115b0[m fix
+[33m323117a[m sample page fix and added tooltip
+[33m1172495[m sample page fix and added tooltip
+[33m2fc7f85[m profile fix
+[33m1f6b96b[m fix
+[33mdb45a6c[m transition added
+[33maa4d326[m configurator added
+[33ma7e3a4f[m New dev version
+[33mc0340d4[m Tagged Roma 1.0.0
+[33ma935f57[m Roma tags
+[33mee51643[m Set version
+[33m361cc30[m SVN plugin test
+[33m4558b35[m focus visuals
+[33m885ac54[m Refactor
+[33ma8a6550[m Refactor
+[33m27921e9[m Config finalized
+[33mf4ae2d7[m doc updated
+[33ma87c452[m updated data demo, added carousel
+[33m57114a4[m dataview fix
+[33mc2d5d61[m menu and version updated
+[33mfbcebf9[m Config finalized
+[33md7129c7[m last fixes
+[33m6dd913b[m config and clone link added
+[33m708c6ea[m add tooltip, demo cosmetics on dataview and datatable
+[33m5b9a935[m config and 2tabs added
+[33m068619e[m menu accessibility
+[33m125df66[m transition added
+[33m4364743[m topbar transition added
+[33m6c6fabd[m doc updated
+[33mdc541a8[m added carousel updated data demo
+[33m687a06b[m menu demos updated
+[33m240a160[m Config finalized
+[33me0e0426[m Config finalized and Inline User Menu fixed
+[33m1677fb5[m cosmetics on carousel
+[33me190637[m set new version
+[33md78c3c9[m Config finalized
+[33m425a83e[m set new version
+[33m4ae6a60[m Refactor
+[33m2cc5b74[m Fixed rowPerPageOptions
+[33m28b240d[m Fixed rowPerPageOptions
+[33m8db86c3[m Config finalized
+[33m9e5fa20[m update primevue version
+[33m382030b[m svn ignores
+[33m9a96de7[m new dev version
+[33me34599c[m Tagged Apollo 1.0.1
+[33mbcf3959[m add carousel, tooltip and demo enhancements
+[33m61d1cd3[m Doc update
+[33m9dc4f7a[m fixed cell editor issue
+[33m753f7c8[m new dev
+[33m70879f9[m Tag
+[33m40448cc[m update primevue version
+[33mf820240[m Delete tag
+[33ma6d23c4[m set new dev
+[33m97d21a3[m Tagged Designer 1.0.1
+[33m1dcb4b3[m ignore
+[33m00e3993[m version update and theme update
+[33m1cc3bdc[m fixed live editor
+[33m459cf13[m add menus, carousel, focus visuals on calendar-inplace, improved data demos
+[33ma582e7b[m menu access and vue animation added
+[33m69313d8[m clone link added
+[33mcc6d250[m data updated carousel added
+[33m3b83f09[m filtermatchmode added
+[33m4ad71d0[m filtermatchmode added
+[33m336f247[m doc cosmetics
+[33m085862a[m added codehighlight and updated dep.
+[33mf4cb976[m onur test fix
+[33m4d3afaf[m onur test fix
+[33m17c935f[m onur test fix
+[33m205dcae[m menu updated
+[33m694e6a5[m menuitem and horizontal config
+[33mb3a80c2[m last fix
+[33mbbc2f98[m data demo updated
+[33maca1ff9[m added replacelink
+[33m63130ea[m colors added
+[33mf1407fc[m transition added and menu fixed
+[33mc9915d4[m doc updated
+[33mfcffc17[m menus updated
+[33m7cb0aa0[m Configurator added
+[33m3ba32d1[m Added Menu and Themes configs
+[33m6a15452[m Refactor
+[33m96b8980[m Import 6_2_28
+[33m2a7ed88[m Import 7_0_12
+[33md3c95af[m Fixed icon issue
+[33m7cdd0e6[m new pages added
+[33mb684dd4[m tagged primefaces 7_0_11
+[33m3dfe8a9[m tagged primefaces 6_2_27
+[33m349e820[m Fixed #4656
+[33m130c3fa[m Fixed #5471
+[33mc1cd1ed[m animation fix
+[33md729b8d[m set version
+[33mfb433c5[m set version
+[33mf260c0a[m fixed #5450
+[33mefcff55[m lint fix
+[33m86b8ae8[m pages converted to angular components
+[33m269c665[m update version
+[33m9b3ae0e[m fixed schedule icon issue
+[33m609797c[m Tagged Apollo 1.0.0
+[33m7125759[m Apollo tag folder
+[33m77ea7e4[m table edit fix
+[33m0bc51a0[m theme improvements
+[33m3739679[m table loading fix
+[33mbb7ca97[m filter icon fix
+[33mdd4ba6a[m set new version
+[33m81b61fc[m set new version
+[33m5263ed1[m set new version
+[33me44e52f[m set new version
+[33m6c65ce0[m set new version
+[33m279a195[m set new version
+[33mf41cb9e[m Finished docs
+[33m7a75374[m tagged ultima 2.1.0
+[33m18e265b[m tagged serenity 2.1.0
+[33m660be66[m tagged roma 2.1.0
+[33m641393e[m tagged mirage 1.0.1
+[33mefd253b[m tagged babylon 3.1.1
+[33me17c8bb[m tagged apollo 3.1.0
+[33m67211cd[m set version
+[33mbbd239f[m set version
+[33md99a8a0[m set version
+[33m857cf3c[m set version
+[33m968b53d[m set version
+[33m4c49ab0[m set version
+[33m9b1f81b[m Refactor Config
+[33m314cb78[m Refactor config
+[33me08fb0d[m Refactor config
+[33m587d40d[m refactored configurator impl
+[33mcb17ece[m close button hover
+[33m891e764[m config
+[33ma3345d8[m Refactor
+[33mc87ee7c[m Refactor
+[33me07ac63[m Refactor
+[33m06b11aa[m Refactor
+[33m12b2715[m Refactor config
+[33m7c5d48c[m Refactor config
+[33ma0719a3[m Refactor
+[33m967a6e5[m Refactor config
+[33m0472302[m Refactor config
+[33m6b472ca[m Refactor Config
+[33mf105129[m Refactor Config
+[33m038fbf6[m Refactor config
+[33me4e952b[m Refactor
+[33m4c8d763[m refactor
+[33m8649414[m Refactor
+[33m448d21e[m Refactor
+[33m7c634be[m Refactor
+[33me70baee[m Refactor
+[33mc8ba8a8[m fixed nanoscroller issue
+[33m704fed9[m fixed nanoscroller issue
+[33m4989226[m aligned progressbar in fileupload
+[33m345ef58[m fixed slim and horiz menu invisibility
+[33md2e3e4a[m fixed submenu alignment
+[33m0d0bdfe[m focus cosmetics
+[33mdf27a13[m Refactor dashboard
+[33m0a60d73[m Refactor dashboard
+[33mbb6f8dc[m Refactor dashboard
+[33md70947b[m add link to logo to go home
+[33m86d034a[m Fixed ripple effect issues on checkbox
+[33m3a23e7c[m Refactor footer and implement logo
+[33m5e915d4[m fixed dataview borders and buttons with icon only width bug
+[33m7f4b0d1[m fixed mask bg color in dark mode
+[33maa59246[m fixed sample page messages
+[33mb5af614[m Implement flex mixins
+[33m48f3352[m alignment issues fixed for panel icons
+[33m10e6923[m Refactor textcolor variables
+[33mf63f379[m Implement Footer
+[33m7e5093a[m Password type for login
+[33m9deeb98[m fixed listbox search icon alignment
+[33me8f7544[m fixed scrollable table alignment issue
+[33m9ff4fb1[m refactor
+[33mdf13146[m refactor
+[33m6a34470[m Refactor
+[33m41ebd44[m nova vue
+[33m82490e5[m update nanoscroller
+[33me515f7a[m update nanoscroller
+[33mf5bcaf3[m update nanoscroller
+[33mf0be850[m update nanoscroller
+[33mbbb882b[m Refactor topbar profile
+[33m1808295[m fix firefox slim issues
+[33meeff4f5[m fix rtl to ltr issue
+[33mf69fa08[m Refactor Config
+[33m3d1c01c[m Refactor
+[33ma581afe[m Refactor
+[33mc25dc65[m Refactor
+[33ma2ffe93[m Refactor
+[33m300d987[m Refactor Config
+[33mba2fadd[m icon fix
+[33md88546e[m focus visuals improvement
+[33mb2994bf[m eslint fix
+[33m3dd3eb7[m css files deleted
+[33m41abd93[m Refactor config
+[33m2b5f69f[m Refactor
+[33m38b0099[m roma added
+[33me1079fe[m added colors
+[33mb1c6e3e[m Create directory layouts-primevue/trunk/roma
+[33m620a0e9[m aligned topbar menu with profile
+[33m0a3778f[m bolder footer
+[33m9160214[m aligned inputs with messages
+[33m9ed7983[m menu cosmetics
+[33m0cac37c[m aria roles for menus
+[33m3e7e3af[m menu demos
+[33m45065f2[m Refactor config
+[33mb7d3bbc[m Refactor
+[33me1d4d4c[m 

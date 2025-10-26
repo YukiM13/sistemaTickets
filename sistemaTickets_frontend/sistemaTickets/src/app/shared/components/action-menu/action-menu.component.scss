@@ -1,0 +1,114 @@
+/* Estilos para el componente de menú de acciones */
+
+.action-menu-button {
+  border-radius: 50% !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  transition: all 0.3s ease;
+  padding: 0 !important;
+  min-width: auto !important;
+  
+  &:hover {
+    background-color: var(--surface-hover) !important;
+    transform: scale(1.1);
+  }
+  
+  &:focus {
+    box-shadow: 0 0 0 2px var(--primary-color) !important;
+  }
+  
+  .p-button-icon {
+    font-size: 0.875rem;
+  }
+}
+
+:host ::ng-deep {
+  .p-menu {
+    min-width: 12rem;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--surface-border);
+    border-radius: 6px;
+    
+    .p-menu-list {
+      padding: 0.5rem 0;
+    }
+    
+    .p-menuitem-link {
+      padding: 0.75rem 1rem;
+      border-radius: 0;
+      transition: all 0.15s;
+      
+      &:hover {
+        background-color: var(--surface-hover);
+      }
+      
+      .p-menuitem-icon {
+        margin-right: 0.75rem;
+        font-size: 0.875rem;
+        color: var(--text-color-secondary);
+      }
+      
+      .p-menuitem-text {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--text-color);
+      }
+    }
+    
+    // Colores para diferentes tipos de acciones
+    .text-success {
+      color: var(--green-500) !important;
+      
+      &:hover {
+        background-color: var(--green-50) !important;
+      }
+    }
+    
+    .text-info {
+      color: var(--blue-500) !important;
+      
+      &:hover {
+        background-color: var(--blue-50) !important;
+      }
+    }
+    
+    .text-warning {
+      color: var(--orange-500) !important;
+      
+      &:hover {
+        background-color: var(--orange-50) !important;
+      }
+    }
+    
+    .text-danger {
+      color: var(--red-500) !important;
+      
+      &:hover {
+        background-color: var(--red-50) !important;
+      }
+    }
+  }
+  
+  .p-tooltip {
+    .p-tooltip-text {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+}
+
+/* Animación suave para el menú */
+:host ::ng-deep .p-menu.p-component {
+  animation: fadeIn 0.15s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,21 @@
+.card { padding: 1rem; }
+.p-field { margin-bottom: 1rem; }
+.p-button-text { margin-right: 0.5rem; }
+
+.table-header { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+.table-header .left-group { display: flex; align-items: center; gap: .5rem; }
+.table-header .right-group { display: flex; align-items: center; gap: .5rem; }
+
+.categoria-table ::ng-deep .p-paginator { display: flex; justify-content: flex-end; align-items: center; }
+
+/* Stronger rule to force paginator to the right (matches pattern used in usuarios styles) */
+:host ::ng-deep .categoria-table .p-paginator {
+	justify-content: flex-end !important;
+}
+
+:host ::ng-deep .categoria-table .p-paginator .p-paginator-current {
+	margin-left: 0 !important;
+}
+
+/* Ensure actions column contents are centered and compact */
+.categoria-table th:first-child, .categoria-table td:first-child { text-align: center; width: 4rem; }

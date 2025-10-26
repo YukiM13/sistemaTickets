@@ -1,0 +1,90 @@
+<p-toast position="top-right"></p-toast>
+<div class="card">
+  <div class="mb-3 flex align-items-center justify-content-between">
+      <div class="flex align-items-center gap-2">
+      <p-dropdown [options]="statusOptions" [(ngModel)]="selectedStatus" (onChange)="onStatusChange()" placeholder="Filtrar por estado"></p-dropdown>
+      <button pButton type="button" icon="pi pi-refresh" label="Refrescar" class="p-button-outlined" (click)="listar()"></button>
+        <button *ngIf="canCreate" pButton type="button" class="p-button-success" icon="pi pi-plus" label="Nuevo" (click)="openNewTicket()"></button>
+    </div>
+    <span class="p-input-icon-left">
+  <i class="pi pi-search"></i>
+  <input pInputText type="text" #searchInput (input)="onGlobalFilter($event)" placeholder="Buscar..." />
+    </span>
+  </div>
+
+  <p-progressSpinner *ngIf="isLoading" styleClass="custom-spinner" [style]="{'width':'60px','height':'60px'}"></p-progressSpinner>
+
+  <p-table #dt class="ticket-table" *ngIf="!isLoading" [value]="filteredTickets" [paginator]="true" [rows]="10" [paginatorPosition]="'bottom'" [globalFilterFields]="['tick_titulo','tick_descripcion','cate_nombre','usuaC_usuario']" [responsiveLayout]="'scroll'">
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngIf="isSoporte">Acciones</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Categoría</th>
+        <th>Encargado</th>
+        <th>Abierto por</th>
+        <th>Estado</th>
+        <th>Prioridad</th>
+        <th>Creación</th>
+       
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-ticket>
+      <tr>
+         <td *ngIf="isSoporte">
+          <p-dropdown [options]="getActionsForTicket(ticket)" placeholder="Acciones" (onChange)="onTicketAction($event.value, ticket)"></p-dropdown>
+        </td>
+        <td>{{ ticket.tick_titulo }}</td>
+        <td>{{ ticket.tick_descripcion }}</td>
+        <td>{{ ticket.cate_nombre || ticket.cate_nombre }}</td>
+        <td>{{ ticket.usua_encargadoNombre }}</td>
+        <td>{{ ticket.usuaC_usuario }}</td>
+        <td>{{ estadoLabel(ticket.tick_estado) }}</td>
+        <td>{{ ticket.tick_prioridad }}</td>
+        <td>{{ ticket.tick_fechaCreacion | date:'short' }}</td>
+        
+      </tr>
+    </ng-template>
+  </p-table>
+  </div>
+
+  <!-- New ticket dialog -->
+  <p-dialog header="Nuevo ticket" [(visible)]="showNewModal" [modal]="true" [closable]="false" [style]="{width: '720px'}">
+    <div class="p-fluid p-grid">
+      <div class="p-col-12 p-md-6">
+        <div class="p-field">
+          <label for="tick_titulo">Título</label>
+          <input id="tick_titulo" pInputText type="text" [(ngModel)]="newTicket.tick_titulo" name="tick_titulo" />
+        </div>
+      </div>
+
+      <div class="p-col-12 p-md-6">
+        <div class="p-field">
+          <label for="tick_prioridad">Prioridad</label>
+          <p-dropdown [options]="priorityOptions" [(ngModel)]="newTicket.tick_prioridad" name="tick_prioridad"></p-dropdown>
+        </div>
+      </div>
+
+      <div class="p-col-12">
+        <div class="p-field">
+          <label for="tick_descripcion">Descripción</label>
+          <textarea id="tick_descripcion" rows="4" [(ngModel)]="newTicket.tick_descripcion" name="tick_descripcion" class="p-inputtext p-inputtextarea"></textarea>
+        </div>
+      </div>
+
+      <div class="p-col-12 p-md-6">
+        <div class="p-field">
+          <label for="cate_id">Categoría</label>
+          <p-dropdown id="cate_id" [options]="categoryOptions" [(ngModel)]="newTicket.cate_id" name="cate_id" placeholder="Selecciona una categoría"></p-dropdown>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <ng-template pTemplate="footer">
+      <button pButton type="button" class="p-button-text" (click)="closeNewTicket()" [disabled]="creatingTicket">Cancelar</button>
+      <button pButton type="button" label="Crear" icon="pi pi-check" class="p-button-primary" (click)="crearTicket()" [disabled]="creatingTicket"></button>
+    </ng-template>
+  </p-dialog>

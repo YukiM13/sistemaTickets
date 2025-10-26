@@ -1,0 +1,136 @@
+/* Estilos personalizados para el componente de usuarios */
+
+.loading-container {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-spinner {
+    ::ng-deep .p-progress-spinner-circle {
+        stroke: var(--primary-color, #6366f1);
+    }
+}
+
+.user-card {
+    transition: all 0.3s ease;
+    border: 1px solid var(--surface-border);
+    position: relative;
+    overflow: visible;
+    
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        
+        .action-menu-trigger {
+            opacity: 1;
+        }
+    }
+    
+    .action-menu-trigger {
+        opacity: 0.7;
+        transition: opacity 0.3s ease;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.user-avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--surface-border);
+    transition: border-color 0.3s ease;
+    
+    &:hover {
+        border-color: var(--primary-color, #6366f1);
+    }
+}
+
+.initials-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Tabla: mantener botón a la izquierda, buscador a la derecha */
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Asegurar que el buscador no se pegue al borde en pantallas pequeñas */
+.table-header .right-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Forzar que el paginador de PrimeNG se alinee a la derecha */
+:host ::ng-deep .usuario-table .p-paginator {
+    justify-content: flex-end !important;
+}
+
+/* También, para el pie del p-table que contiene paginador */
+:host ::ng-deep .usuario-table .p-paginator .p-paginator-current {
+    margin-left: 0;
+}
+
+.tab-button {
+    transition: all 0.3s ease;
+    
+    &.active {
+        background-color: var(--primary-color, #6366f1);
+        color: white;
+    }
+    
+    &:not(.active) {
+        background-color: transparent;
+        color: var(--primary-color, #6366f1);
+        border: 1px solid var(--primary-color, #6366f1);
+    }
+}
+
+.user-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    
+    &.docente {
+        background-color: var(--orange-100);
+        color: var(--orange-800);
+    }
+    
+    &.alumno {
+        background-color: var(--blue-100);
+        color: var(--blue-800);
+    }
+}
+
+/* Animación de fade-in para las cards */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

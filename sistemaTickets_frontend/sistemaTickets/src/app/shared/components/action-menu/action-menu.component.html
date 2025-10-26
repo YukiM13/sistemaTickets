@@ -1,0 +1,13 @@
+<p-menu #menu [model]="menuItems" [popup]="true" appendTo="body"></p-menu>
+<button 
+    type="button" 
+    pButton 
+    [class]="buttonClass + ' action-menu-button'"
+    [icon]="buttonIcon"
+    [label]="buttonLabel"
+    [disabled]="disabled"
+    (click)="showMenu($event)"
+    [attr.aria-label]="'Acciones disponibles'"
+    pTooltip="Acciones"
+    tooltipPosition="left">
+</button>

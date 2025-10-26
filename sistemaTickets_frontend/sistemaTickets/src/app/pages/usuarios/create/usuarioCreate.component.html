@@ -1,0 +1,50 @@
+<p-toast position="top-right"></p-toast>
+<p-dialog header="Nuevo usuario" [(visible)]="showNewModal" [modal]="true" [closable]="false" styleClass="usuario-create-dialog" [style]="{width: '700px'}">
+  <div class="p-fluid">
+    <div class="p-grid two-col-form">
+      <div class="p-md-6">
+        <div class="p-field">
+          <label for="usua_usuario">Usuario</label>
+          <input id="usua_usuario" pInputText type="text" [(ngModel)]="newUsuario.usua_usuario" name="usua_usuario" />
+          <small *ngIf="formErrors.usua_usuario" class="p-error">{{ formErrors.usua_usuario }}</small>
+        </div>
+      </div>
+
+      <div class="p-md-6">
+        <div class="p-field">
+          <label for="email">Email</label>
+          <input id="email" pInputText type="email" [(ngModel)]="newUsuario.email" name="email" />
+          <small *ngIf="formErrors.email" class="p-error">{{ formErrors.email }}</small>
+        </div>
+      </div>
+
+       <div class="p-md-6">
+          <div class="p-field">
+            <label for="password">Contraseña</label>
+            <input id="password" pInputText type="password" [(ngModel)]="newUsuario.password" name="password" />
+            <small *ngIf="formErrors.password" class="p-error">{{ formErrors.password }}</small>
+        </div>
+      </div>
+      <div class="p-md-6">
+        <div class="p-field">
+          <label for="role">Rol</label>
+          <p-dropdown id="role" [options]="roleOptions" [(ngModel)]="newUsuario.role_id" name="role_id" placeholder="Selecciona un rol"></p-dropdown>
+          <small *ngIf="formErrors.role_id" class="p-error">{{ formErrors.role_id }}</small>
+        </div>
+      </div>
+
+      <div class="p-md-6">
+        <div class="p-field">
+          <label class="p-checkbox-label" for="usua_EsAdmin">Es administrador</label>
+          <p-checkbox id="usua_EsAdmin" [(ngModel)]="newUsuario.usua_EsAdmin" name="usua_EsAdmin" [binary]="true"></p-checkbox>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template pTemplate="footer">
+    <button pButton type="button" class="p-button-text" (click)="close()" [disabled]="creatingUser">Cancelar</button>
+    <button pButton type="button" label="Crear" icon="pi pi-check" class="p-button-primary" (click)="crearUsuario()" [disabled]="creatingUser"></button>
+  </ng-template>
+</p-dialog>
+

@@ -1,0 +1,20 @@
+.custom-spinner {
+  margin: 1rem auto;
+  display: block;
+}
+
+.card .mb-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .p-input-icon-left {
+  width: 260px;
+}
+
+/* align paginator to right for this table */
+.ticket-table ::ng-deep .p-paginator {
+  display: flex;
+  justify-content: flex-end;
+}
