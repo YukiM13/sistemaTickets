@@ -115,6 +115,11 @@ Frontend (Angular) <---> Backend API (.NET Core) <---> Firebase (DB & Auth)
 
 ---
 
+## Usuarios para el frontend
+- **Admin:** email: admin@gmail.com password: 123456
+- **Colaborador:** email: colaborador@gmail.com password: 123456
+- **Soporte:** email: test@gmail.com password: 123456 
+
 
 
 ## 📝 Licencia
